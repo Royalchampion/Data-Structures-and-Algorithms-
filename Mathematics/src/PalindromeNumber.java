@@ -1,3 +1,4 @@
+// A program to check whether the given number is palindrome or not.
 public class PalindromeNumber {
     public static boolean isPalindrome(int number) {
         int reverse = 0;
