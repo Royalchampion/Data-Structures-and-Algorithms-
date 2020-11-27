@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Mathematics/src/GreatestCommonDivisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/Mathematics/GreatestCommonDivisor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mathematics/src/LeastCommonMultiple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Mathematics/GreatestCommonDivisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/Mathematics/GreatestCommonDivisor.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,14 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GreatestCommonDivisor">
-    <configuration name="CountDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountDigits" />
-      <module name="Mathematics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LeastCommonMultiple">
     <configuration name="FactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FactorialNumber" />
       <module name="Mathematics" />
@@ -61,6 +54,13 @@
     </configuration>
     <configuration name="GreatestCommonDivisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GreatestCommonDivisor" />
+      <module name="Mathematics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeastCommonMultiple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeastCommonMultiple" />
       <module name="Mathematics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeastCommonMultiple" />
         <item itemvalue="Application.GreatestCommonDivisor" />
         <item itemvalue="Application.TrailingZero" />
         <item itemvalue="Application.FactorialNumber" />
         <item itemvalue="Application.PalindromeNumber" />
-        <item itemvalue="Application.CountDigits" />
       </list>
     </recent_temporary>
   </component>
