@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mathematics/src/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mathematics/src/PalindromeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mathematics/src/countDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mathematics/src/CountDigits.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +43,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.FactorialNumber">
+    <configuration name="CountDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountDigits" />
+      <module name="Mathematics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FactorialNumber" />
       <module name="Mathematics" />
@@ -58,18 +64,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="countDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="countDigits" />
-      <module name="Mathematics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.FactorialNumber" />
         <item itemvalue="Application.PalindromeNumber" />
-        <item itemvalue="Application.countDigits" />
+        <item itemvalue="Application.CountDigits" />
       </list>
     </recent_temporary>
   </component>

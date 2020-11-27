@@ -1,5 +1,5 @@
 // A program to find out the number of digits in a number.
-public class countDigits {
+public class CountDigits {
     public static void main(String[] args) {
         System.out.println(count(192810));
     }
