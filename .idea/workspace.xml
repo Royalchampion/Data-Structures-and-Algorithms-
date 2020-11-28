@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Mathematics/src/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mathematics/src/PrimeFactors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production/Mathematics/PrimeFactors.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Mathematics/PrimeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/Mathematics/PrimeNumber.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrimeNumber">
-    <configuration name="FactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactorialNumber" />
-      <module name="Mathematics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PrimeFactors">
     <configuration name="GreatestCommonDivisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GreatestCommonDivisor" />
       <module name="Mathematics" />
@@ -60,6 +55,13 @@
     </configuration>
     <configuration name="LeastCommonMultiple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeastCommonMultiple" />
+      <module name="Mathematics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeFactors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeFactors" />
       <module name="Mathematics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeFactors" />
         <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.LeastCommonMultiple" />
         <item itemvalue="Application.GreatestCommonDivisor" />
         <item itemvalue="Application.TrailingZero" />
-        <item itemvalue="Application.FactorialNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +109,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
