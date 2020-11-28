@@ -1,3 +1,5 @@
+// A program to implement Sieve of Eratosthenes to find out the prime numbers.
+
 import java.util.Arrays;
 
 public class SieveOfEratosthenes {
