@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bits Manipulation/src/Kthbit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bits Manipulation/src/CountSets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,10 +43,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Kthbit">
+  <component name="RunManager" selected="Application.CountSets">
     <configuration name="ComputingPower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ComputingPower" />
       <module name="Mathematics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountSets" />
+      <module name="Bits Manipulation" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -66,13 +72,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeFactors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrimeFactors" />
-      <module name="Mathematics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SieveOfEratosthenes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SieveOfEratosthenes" />
       <module name="Mathematics" />
@@ -82,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountSets" />
         <item itemvalue="Application.Kthbit" />
         <item itemvalue="Application.ComputingPower" />
         <item itemvalue="Application.SieveOfEratosthenes" />
         <item itemvalue="Application.Divisors" />
-        <item itemvalue="Application.PrimeFactors" />
       </list>
     </recent_temporary>
   </component>
