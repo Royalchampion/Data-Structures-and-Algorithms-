@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bits Manipulation/src/PowerOfTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/production/Bits Manipulation/PowerOfTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bits Manipulation/src/OneOddNumberOccuring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Bits Manipulation/PowerOfTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/Bits Manipulation/PowerOfTwo.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PowerOfTwo">
+  <component name="RunManager" selected="Application.OneOddNumberOccuring">
     <configuration name="ComputingPower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ComputingPower" />
       <module name="Mathematics" />
@@ -66,6 +66,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OneOddNumberOccuring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OneOddNumberOccuring" />
+      <module name="Bits Manipulation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PowerOfTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PowerOfTwo" />
       <module name="Bits Manipulation" />
@@ -73,20 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SieveOfEratosthenes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SieveOfEratosthenes" />
-      <module name="Mathematics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OneOddNumberOccuring" />
         <item itemvalue="Application.PowerOfTwo" />
         <item itemvalue="Application.CountSets" />
         <item itemvalue="Application.Kthbit" />
         <item itemvalue="Application.ComputingPower" />
-        <item itemvalue="Application.SieveOfEratosthenes" />
       </list>
     </recent_temporary>
   </component>
