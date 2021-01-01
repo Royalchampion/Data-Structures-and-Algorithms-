@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bits Manipulation/src/Sparse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bits Manipulation/src/MaxConsecutiveOnes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountBitFlip">
+  <component name="RunManager" selected="Application.MaxConsecutiveOnes">
     <configuration name="CountBitFlip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountBitFlip" />
       <module name="Bits Manipulation" />
@@ -51,8 +51,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneOddNumberOccuring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OneOddNumberOccuring" />
+    <configuration name="MaxConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxConsecutiveOnes" />
       <module name="Bits Manipulation" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxConsecutiveOnes" />
         <item itemvalue="Application.CountBitFlip" />
         <item itemvalue="Application.RightMostDifferentBit" />
         <item itemvalue="Application.PowerSets" />
         <item itemvalue="Application.TwoOddNumberOccuring" />
-        <item itemvalue="Application.OneOddNumberOccuring" />
       </list>
     </recent_temporary>
   </component>
