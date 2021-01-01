@@ -1,3 +1,4 @@
+//to count number of bits to be flipped to convert A to B.
 public class CountBitFlip {
     public static void main(String[] args) {
         System.out.println(countBitsFlip(10, 20));
