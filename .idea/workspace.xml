@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Recursion/src/OneToN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursion/src/Factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,10 +43,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OneToN">
+  <component name="RunManager" selected="Application.Factorial">
     <configuration name="CountBitFlip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountBitFlip" />
       <module name="Bits Manipulation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Factorial" />
+      <module name="Recursion" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -72,20 +79,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RightMostDifferentBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RightMostDifferentBit" />
-      <module name="Bits Manipulation" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.OneToN" />
         <item itemvalue="Application.PrintNToOne" />
         <item itemvalue="Application.MaxConsecutiveOnes" />
         <item itemvalue="Application.CountBitFlip" />
-        <item itemvalue="Application.RightMostDifferentBit" />
       </list>
     </recent_temporary>
   </component>
