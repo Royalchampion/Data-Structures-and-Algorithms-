@@ -1,4 +1,4 @@
-public class subsetsUsingRecursion {
+public class SubsetsUsingRecursion {
     public static void main(String[] args) {
         subsets("ABC", "", 0);
     }
