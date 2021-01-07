@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Recursion/src/CountSubsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursion/src/DigitalRoot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,9 +43,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountSubsets">
+  <component name="RunManager" selected="Application.DigitalRoot">
     <configuration name="CountSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountSubsets" />
+      <module name="Recursion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DigitalRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DigitalRoot" />
       <module name="Recursion" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,13 +72,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SumOfDigits" />
-      <module name="Recursion" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TowerOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TowerOfHanoi" />
       <module name="Recursion" />
@@ -81,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DigitalRoot" />
         <item itemvalue="Application.CountSubsets" />
         <item itemvalue="Application.JosephusProblem" />
         <item itemvalue="Application.TowerOfHanoi" />
         <item itemvalue="Application.SubsetsUsingRecursion" />
-        <item itemvalue="Application.SumOfDigits" />
       </list>
     </recent_temporary>
   </component>
