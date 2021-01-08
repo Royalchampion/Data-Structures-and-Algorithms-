@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Bits Manipulation/Bits Manipulation.iml" filepath="$PROJECT_DIR$/Bits Manipulation/Bits Manipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1. Mathematics/1. Mathematics.iml" filepath="$PROJECT_DIR$/1. Mathematics/1. Mathematics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. Bits Manipulation/2. Bits Manipulation.iml" filepath="$PROJECT_DIR$/2. Bits Manipulation/2. Bits Manipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3. Recursion/3. Recursion.iml" filepath="$PROJECT_DIR$/3. Recursion/3. Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4. Array/4. Array.iml" filepath="$PROJECT_DIR$/4. Array/4. Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Data Structures And Algorithms.iml" filepath="$PROJECT_DIR$/.idea/Data Structures And Algorithms.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Mathematics/Mathematics.iml" filepath="$PROJECT_DIR$/Mathematics/Mathematics.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
     </modules>
   </component>
 </project>

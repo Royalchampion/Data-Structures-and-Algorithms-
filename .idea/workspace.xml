@@ -2,8 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Recursion/src/RecursivePower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. Array/4. Array.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. Array/src/LargestElementInAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bits Manipulation/Bits Manipulation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/1. Mathematics/1. Mathematics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bits Manipulation/GetFirstSetBit.java" beforeDir="false" afterPath="$PROJECT_DIR$/2. Bits Manipulation/GetFirstSetBit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bits Manipulation/src/CountBitFlip.java" beforeDir="false" afterPath="$PROJECT_DIR$/2. Bits Manipulation/src/CountBitFlip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bits Manipulation/src/CountSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/2. Bits Manipulation/src/CountSets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bits Manipulation/src/Kthbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/2. Bits Manipulation/src/Kthbit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bits Manipulation/src/MaxConsecutiveOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/2. Bits Manipulation/src/MaxConsecutiveOnes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bits Manipulation/src/OneOddNumberOccuring.java" beforeDir="false" afterPath="$PROJECT_DIR$/2. Bits Manipulation/src/OneOddNumberOccuring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bits Manipulation/src/PowerOfTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/2. Bits Manipulation/src/PowerOfTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bits Manipulation/src/PowerSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/2. Bits Manipulation/src/PowerSets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bits Manipulation/src/RightMostDifferentBit.java" beforeDir="false" afterPath="$PROJECT_DIR$/2. Bits Manipulation/src/RightMostDifferentBit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bits Manipulation/src/Sparse.java" beforeDir="false" afterPath="$PROJECT_DIR$/2. Bits Manipulation/src/Sparse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bits Manipulation/src/TwoOddNumberOccuring.java" beforeDir="false" afterPath="$PROJECT_DIR$/2. Bits Manipulation/src/TwoOddNumberOccuring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mathematics/Mathematics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2. Bits Manipulation/2. Bits Manipulation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mathematics/src/ComputingPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Mathematics/src/ComputingPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mathematics/src/CountDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Mathematics/src/CountDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mathematics/src/Divisors.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Mathematics/src/Divisors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mathematics/src/FactorialNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Mathematics/src/FactorialNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mathematics/src/GreatestCommonDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Mathematics/src/GreatestCommonDivisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mathematics/src/LeastCommonMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Mathematics/src/LeastCommonMultiple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mathematics/src/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Mathematics/src/PalindromeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mathematics/src/PrimeFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Mathematics/src/PrimeFactors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mathematics/src/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Mathematics/src/PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mathematics/src/SieveOfEratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Mathematics/src/SieveOfEratosthenes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mathematics/src/TrailingZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Mathematics/src/TrailingZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/Recursion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/3. Recursion/3. Recursion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/CountSubsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Recursion/src/CountSubsets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/DigitalRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Recursion/src/DigitalRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Recursion/src/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Recursion/src/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/JosephusProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Recursion/src/JosephusProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/LuckyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Recursion/src/LuckyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/OneToN.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Recursion/src/OneToN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Recursion/src/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/PrintNToOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Recursion/src/PrintNToOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/RecursivePower.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Recursion/src/RecursivePower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/SubsetsUsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Recursion/src/SubsetsUsingRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/SumOfDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Recursion/src/SumOfDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/SumOfFirstNNaturalNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Recursion/src/SumOfFirstNNaturalNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/src/TowerOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Recursion/src/TowerOfHanoi.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,49 +84,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RecursivePower">
+  <component name="RunManager" selected="Application.LargestElementInAnArray">
     <configuration name="CountSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountSubsets" />
-      <module name="Recursion" />
+      <module name="3. Recursion" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="DigitalRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DigitalRoot" />
-      <module name="Recursion" />
+      <module name="3. Recursion" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JosephusProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JosephusProblem" />
-      <module name="Recursion" />
+    <configuration name="LargestElementInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LargestElementInAnArray" />
+      <module name="4. Array" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LuckyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LuckyNumber" />
-      <module name="Recursion" />
+      <module name="3. Recursion" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="RecursivePower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RecursivePower" />
-      <module name="Recursion" />
+      <module name="3. Recursion" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestElementInAnArray" />
         <item itemvalue="Application.RecursivePower" />
         <item itemvalue="Application.LuckyNumber" />
         <item itemvalue="Application.DigitalRoot" />
         <item itemvalue="Application.CountSubsets" />
-        <item itemvalue="Application.JosephusProblem" />
       </list>
     </recent_temporary>
   </component>
