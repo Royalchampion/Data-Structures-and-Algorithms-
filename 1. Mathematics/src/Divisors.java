@@ -4,7 +4,7 @@ public class Divisors {
         divisorsOfAllNumbers(100);
     }
 
-    public static void divisorsOfAllNumbers(int number) {
+    public static void allDivisorsOfANumber(int number) {
         for (int i=1; i*i<=number; i++) {
             if (number%i == 0) {
                 System.out.println(i);

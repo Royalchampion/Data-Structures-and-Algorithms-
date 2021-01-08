@@ -9,7 +9,7 @@ public class PrimeFactors {
         for(int i=2; i*i<=n; i++) {
             while(n%i==0) {
                 print(i);
-                n=n/10;
+                n=n/i;
             }
         }
         if(n>1) {
