@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/4. Array/src/CheckIfAnArrayIsSorted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Array/src/SecondLargestElementInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/4. Array/src/SecondLargestElementInAnArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/SecondLargestElementInAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/SecondLargestElementInAnArray.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,10 +43,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SecondLargestElementInAnArray">
-    <configuration name="DigitalRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DigitalRoot" />
-      <module name="3. Recursion" />
+  <component name="RunManager" selected="Application.CheckIfAnArrayIsSorted">
+    <configuration name="CheckIfAnArrayIsSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CheckIfAnArrayIsSorted" />
+      <module name="4. Array" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckIfAnArrayIsSorted" />
         <item itemvalue="Application.SecondLargestElementInAnArray" />
         <item itemvalue="Application.LargestElementInAnArray" />
         <item itemvalue="Application.RecursivePower" />
         <item itemvalue="Application.LuckyNumber" />
-        <item itemvalue="Application.DigitalRoot" />
       </list>
     </recent_temporary>
   </component>
