@@ -9,6 +9,7 @@ public class LeftRotateAnArrayByDPosition {
 
 //    Time Complexity : O(n)
 //    Space Complexity : O(1)
+//    Reversal Algorithm
     public static void leftRotateEfficient(int arr[], int D) {
 //        arr = new int[]{2, 22, 44, 11, 5};
         reverse(arr, 0, D-1);
