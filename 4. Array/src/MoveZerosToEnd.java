@@ -1,8 +1,10 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class MoveZerosToEnd {
     public static void main(String[] args) {
         moveTheZerosNaive(new int[]{3, 1, 0, 0, 10, 0});
+        moveZerosEfficient(new int[]{10, 12, 0, 0, 22, 0, 11});
     }
 
 //    Time Complexity : O(n^2)
@@ -17,6 +19,20 @@ public class MoveZerosToEnd {
                         arr[i] = temp;
                     }
                 }
+            }
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+
+    public static void moveZerosEfficient(int arr[]) {
+        int count = 0;
+        int temp = 0;
+        for (int i=0; i<arr.length; i++) {
+            if (arr[i]!=0) {
+                temp = arr[i];
+                arr[i] = arr[count];
+                arr[count] = temp;
+                count++;
             }
         }
         System.out.println(Arrays.toString(arr));
