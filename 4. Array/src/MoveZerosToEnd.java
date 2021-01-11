@@ -8,6 +8,7 @@ public class MoveZerosToEnd {
     }
 
 //    Time Complexity : O(n^2)
+//    Space Complexity : O(1)
     public static void moveTheZerosNaive(int arr[]) {
         int temp = 0;
         for (int i=0; i<arr.length; i++) {
@@ -25,6 +26,7 @@ public class MoveZerosToEnd {
     }
 
 //     Time Complexity : O(n)
+//    Space Complexity : O(1)
     public static void moveZerosEfficient(int arr[]) {
         int count = 0;
         int temp = 0;
