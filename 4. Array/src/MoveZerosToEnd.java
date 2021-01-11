@@ -24,6 +24,7 @@ public class MoveZerosToEnd {
         System.out.println(Arrays.toString(arr));
     }
 
+//     Time Complexity : O(n)
     public static void moveZerosEfficient(int arr[]) {
         int count = 0;
         int temp = 0;
