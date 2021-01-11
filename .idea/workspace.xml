@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/4. Array/src/LeftRotateAnArrayByOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Array/src/MoveZerosToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/4. Array/src/MoveZerosToEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/MoveZerosToEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/MoveZerosToEnd.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,9 +43,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MoveZerosToEnd">
+  <component name="RunManager" selected="Application.LeftRotateAnArrayByOne">
     <configuration name="CheckIfAnArrayIsSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CheckIfAnArrayIsSorted" />
+      <module name="4. Array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeftRotateAnArrayByOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeftRotateAnArrayByOne" />
       <module name="4. Array" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,20 +79,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondLargestElementInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecondLargestElementInAnArray" />
-      <module name="4. Array" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeftRotateAnArrayByOne" />
         <item itemvalue="Application.MoveZerosToEnd" />
         <item itemvalue="Application.RemoveDuplicatesFromASortedArray" />
         <item itemvalue="Application.ReverseAnArray" />
         <item itemvalue="Application.CheckIfAnArrayIsSorted" />
-        <item itemvalue="Application.SecondLargestElementInAnArray" />
       </list>
     </recent_temporary>
   </component>
