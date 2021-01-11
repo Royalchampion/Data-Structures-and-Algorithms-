@@ -4,6 +4,28 @@ public class LeftRotateAnArrayByDPosition {
     public static void main(String[] args) {
         leftRotateNaive(new int[]{4, 1, 2, 8, 10}, 3);
         leftRotateBetter(new int[]{3, 1, 22, 44, 11}, 4);
+        leftRotateEfficient(new int[]{3, 1, 22, 44, 11}, 2);
+    }
+
+//    Time Complexity : O(n)
+//    Space Complexity : O(1)
+    public static void leftRotateEfficient(int arr[], int D) {
+//        arr = new int[]{2, 22, 44, 11, 5};
+        reverse(arr, 0, D-1);
+        reverse(arr, D, arr.length-1);
+        reverse(arr, 0, arr.length-1);
+        System.out.println(Arrays.toString(arr));
+    }
+
+    public static void reverse(int arr[], int initial, int last) {
+        int temp = 0;
+        while (initial < last) {
+            temp = arr[initial];
+            arr[initial] = arr[last];
+            arr[last] = temp;
+            initial++;
+            last--;
+        }
     }
 
 ////////////////////////////////////////////////////////////////////////////////////////
