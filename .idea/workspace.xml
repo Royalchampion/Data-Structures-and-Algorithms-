@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/4. Array/src/MaximumDifferenceProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Array/src/LeadersInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/4. Array/src/LeadersInAnArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/4. Array/LeadersInAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/LeadersInAnArray.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeadersInAnArray">
+  <component name="RunManager" selected="Application.MaximumDifferenceProblem">
     <configuration name="LeadersInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeadersInAnArray" />
       <module name="4. Array" />
@@ -66,6 +66,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaximumDifferenceProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaximumDifferenceProblem" />
+      <module name="4. Array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MoveZerosToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MoveZerosToEnd" />
       <module name="4. Array" />
@@ -73,20 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesFromASortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RemoveDuplicatesFromASortedArray" />
-      <module name="4. Array" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumDifferenceProblem" />
         <item itemvalue="Application.LeadersInAnArray" />
         <item itemvalue="Application.LeftRotateAnArrayByDPosition" />
         <item itemvalue="Application.LeftRotateAnArrayByOne" />
         <item itemvalue="Application.MoveZerosToEnd" />
-        <item itemvalue="Application.RemoveDuplicatesFromASortedArray" />
       </list>
     </recent_temporary>
   </component>
