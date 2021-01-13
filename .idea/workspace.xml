@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4. Array/src/StockBuyAndSellProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. Array/src/TrappingRainWaterProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/4. Array/StockBuyAndSellProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/StockBuyAndSellProblem.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StockBuyAndSellProblem">
+  <component name="RunManager" selected="Application.TrappingRainWaterProblem">
     <configuration name="FrequencyInASortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FrequencyInASortedArray" />
       <module name="4. Array" />
@@ -53,13 +54,6 @@
     </configuration>
     <configuration name="LeadersInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeadersInAnArray" />
-      <module name="4. Array" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeftRotateAnArrayByDPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeftRotateAnArrayByDPosition" />
       <module name="4. Array" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,13 +73,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrappingRainWaterProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TrappingRainWaterProblem" />
+      <module name="4. Array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TrappingRainWaterProblem" />
         <item itemvalue="Application.StockBuyAndSellProblem" />
         <item itemvalue="Application.FrequencyInASortedArray" />
         <item itemvalue="Application.MaximumDifferenceProblem" />
         <item itemvalue="Application.LeadersInAnArray" />
-        <item itemvalue="Application.LeftRotateAnArrayByDPosition" />
       </list>
     </recent_temporary>
   </component>
