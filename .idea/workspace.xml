@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4. Array/src/FrequencyInASortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. Array/src/StockBuyAndSellProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FrequencyInASortedArray">
+  <component name="RunManager" selected="Application.StockBuyAndSellProblem">
     <configuration name="FrequencyInASortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FrequencyInASortedArray" />
       <module name="4. Array" />
@@ -65,13 +65,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftRotateAnArrayByOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeftRotateAnArrayByOne" />
-      <module name="4. Array" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MaximumDifferenceProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MaximumDifferenceProblem" />
       <module name="4. Array" />
@@ -79,13 +72,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StockBuyAndSellProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StockBuyAndSellProblem" />
+      <module name="4. Array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StockBuyAndSellProblem" />
         <item itemvalue="Application.FrequencyInASortedArray" />
         <item itemvalue="Application.MaximumDifferenceProblem" />
         <item itemvalue="Application.LeadersInAnArray" />
         <item itemvalue="Application.LeftRotateAnArrayByDPosition" />
-        <item itemvalue="Application.LeftRotateAnArrayByOne" />
       </list>
     </recent_temporary>
   </component>
