@@ -20,6 +20,7 @@ public class MaximumSubarraySum {
 
 //    Time Complexity : O(n)
 //    Auxiliary Space : O(1)
+//    Kadane's Algorithm
     public static int maxSumKadaneAlgo(int arr[]) {
         int res = arr[0];
         int maxEnding = arr[0];
