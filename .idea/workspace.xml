@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4. Array/src/MinimumConsecutiveFlip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. Array/src/WindowSlidingTechnique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/MajorityElement.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,14 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinimumConsecutiveFlip">
-    <configuration name="LongestEvenOddSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestEvenOddSubarray" />
-      <module name="4. Array" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WindowSlidingTechnique">
     <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MajorityElement" />
       <module name="4. Array" />
@@ -80,13 +72,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WindowSlidingTechnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WindowSlidingTechnique" />
+      <module name="4. Array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WindowSlidingTechnique" />
         <item itemvalue="Application.MinimumConsecutiveFlip" />
         <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.MaximumCircularSubArray" />
         <item itemvalue="Application.MaximumSubarraySum" />
-        <item itemvalue="Application.LongestEvenOddSubarray" />
       </list>
     </recent_temporary>
   </component>
