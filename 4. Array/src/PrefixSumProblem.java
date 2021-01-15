@@ -1,8 +1,22 @@
+import java.util.Arrays;
+
 public class PrefixSumProblem {
     public static void main(String[] args) {
         System.out.println(calcSum(new int[]{2, 8, 3, 9, 6, 5, 4}, 1, 3));
+        System.out.println(prefixSumArray(new int[]{2, 8, 3, 9, 6, 5, 4}));
     }
 
+    public static String prefixSumArray(int arr[]) {
+        int prefixSum[] = new int[arr.length];
+        prefixSum[0] = arr[0];
+        for (int i=1; i<arr.length; i++) {
+            prefixSum[i] = prefixSum[i-1] + arr[i];
+        }
+        return Arrays.toString(prefixSum);
+    }
+
+//    Time Complexity : O(n)
+//    Auxiliary Space : O(1)
     public static int calcSum(int arr[], int left, int right) {
         int sum = 0;
         for (int i=left; i<=right; i++) {
