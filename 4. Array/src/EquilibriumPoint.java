@@ -3,6 +3,8 @@ public class EquilibriumPoint {
         System.out.println(findEquilibriumPoint(new int[]{4, 1, -2}));
     }
 
+//    Time Complexity : O(n^2)
+//    Auxiliary Space : O(1)
     public static boolean findEquilibriumPoint(int arr[]) {
         for (int i=0; i<arr.length; i++) {
             int leftSum = 0;
