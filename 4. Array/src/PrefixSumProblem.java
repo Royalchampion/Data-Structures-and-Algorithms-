@@ -6,6 +6,8 @@ public class PrefixSumProblem {
         System.out.println(prefixSumArray(new int[]{2, 8, 3, 9, 6, 5, 4}));
     }
 
+//    Now, In order to find out the prefix sum on a specific index position, You have to use calcSum method.
+//    Just use the formula : prefixSum(left) - prefixSum(right-1)
     public static String prefixSumArray(int arr[]) {
         int prefixSum[] = new int[arr.length];
         prefixSum[0] = arr[0];
