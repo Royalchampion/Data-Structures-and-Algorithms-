@@ -1,3 +1,4 @@
+// Find the second largest element in an array.
 public class SecondLargestElementInAnArray {
     public static void main(String[] args) {
         System.out.println(secondLargestElementInAnArrayNaive(new int[]{5, 8, 18, 21, 16}));
@@ -5,6 +6,8 @@ public class SecondLargestElementInAnArray {
     }
 
 //    However, there are two for loops in this method.
+//     Time Complexity : O(n)
+//     Space Complexity : O(1)
     public static int secondLargestElementInAnArrayNaive(int arr[]) {
         int largest = findLargest(arr);
         int result = -1;
@@ -32,6 +35,8 @@ public class SecondLargestElementInAnArray {
     }
 
 //    There's only one for loop in this method. Thus, it's an efficient solution.
+//     Time Complexity : O(n)
+//     Space Complexity : O(1)
     public static int findSecondLargestElementInAnArrayEfficient(int arr[]) {
         int result = -1;
         int largest = 0;

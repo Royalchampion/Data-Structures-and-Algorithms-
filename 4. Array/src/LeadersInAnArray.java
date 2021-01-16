@@ -1,3 +1,5 @@
+// Write a program to print leaders element from an array.
+// Leader elements are those elements in an array which is greater than every elements present in the right position of the array.
 public class LeadersInAnArray {
     public static void main(String[] args) {
         leadersNaive(new int[]{1, 10, 22, 34, 44, 12, 11});

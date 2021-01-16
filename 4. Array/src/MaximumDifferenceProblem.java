@@ -1,3 +1,4 @@
+// Write a program to find the maximum difference in an array.
 public class MaximumDifferenceProblem {
     public static void main(String[] args) {
         System.out.println(maxDiffNaive(new int[]{3, 4, 10, 12, 11, 9, 22}));

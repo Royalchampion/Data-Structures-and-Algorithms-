@@ -1,3 +1,4 @@
+// Write a program to move zeros to the end in an array.
 import java.util.ArrayList;
 import java.util.Arrays;
 

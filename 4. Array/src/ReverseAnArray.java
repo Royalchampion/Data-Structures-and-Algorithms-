@@ -1,3 +1,4 @@
+// Write a program to reverse an array.
 import java.util.Arrays;
 
 public class ReverseAnArray {

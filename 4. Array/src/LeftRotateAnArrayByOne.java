@@ -1,3 +1,4 @@
+// Write a program to move the elements of an array to the left by one position.
 import java.util.Arrays;
 
 public class LeftRotateAnArrayByOne {
