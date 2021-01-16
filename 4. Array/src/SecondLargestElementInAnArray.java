@@ -1,3 +1,4 @@
+// Find the second largest element in an array.
 public class SecondLargestElementInAnArray {
     public static void main(String[] args) {
         System.out.println(secondLargestElementInAnArrayNaive(new int[]{5, 8, 18, 21, 16}));
