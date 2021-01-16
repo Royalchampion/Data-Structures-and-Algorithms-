@@ -4,7 +4,8 @@ public class LargestElementInAnArray {
         System.out.println(findLargestAlternative(new int[]{5, 8, 12, 9}));
     }
 
-//    Time complexity for this method is n^2.
+//    Time complexity : O(n^2).
+//     Space Complexity : O(1).
     public static int findLargestNaive(int arr[]) {
         for(int i=0; i<arr.length; i++) {
             boolean flag = true;
@@ -21,7 +22,8 @@ public class LargestElementInAnArray {
         return -1;
     }
 
-//    Time complexity for this method is n.
+//    Time complexity : O(n).
+//     Space Complexity : O(1).
     public static int findLargestAlternative(int arr[]) {
         int result = 0;
         for (int i=1; i<arr.length; i++) {
