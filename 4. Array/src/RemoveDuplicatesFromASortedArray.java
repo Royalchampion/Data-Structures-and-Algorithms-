@@ -1,3 +1,4 @@
+// Write a program to remove the duplicates from an array.
 public class RemoveDuplicatesFromASortedArray {
     public static void main(String[] args) {
         int arr[] = new int[]{3, 4, 4, 5, 5, 5};
