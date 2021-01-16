@@ -1,3 +1,4 @@
+// Find the largest element in an array.
 public class LargestElementInAnArray {
     public static void main(String[] args) {
         System.out.println(findLargestNaive(new int[]{8, 10, 12, 11}));
