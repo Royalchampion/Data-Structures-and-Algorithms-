@@ -4,7 +4,9 @@ public class CheckIfAnArrayIsSorted {
         System.out.println(isSortedEfficient(new int[]{3, 4, 17, 44, 22}));
     }
 
-//     Since, There are two for loops with the given input as 'n', time complexity for this method is O(n^2).
+//     Since, There are two for loops with the given input as 'n'.
+//     Time Complexity : O(n^2).
+//     Space Complexity : O(1).
     public static boolean isSortedNaive(int arr[]) {
         for (int i=0; i<arr.length; i++) {
             for (int j=i+1; j<arr.length; j++) {
@@ -16,7 +18,9 @@ public class CheckIfAnArrayIsSorted {
         return true;
     }
 
-//     Since, There is only one for loop with the given input as 'n', time complexity for this method is O(n). Hence, this method is an efficient solution.
+//     Since, There is only one for loop with the given input as 'n'. Hence, this method is an efficient solution.
+//     Time Complexity : O(n)
+//     Space Complexity : O(1)
     public static boolean isSortedEfficient(int arr[]) {
         for (int i=0; i<arr.length; i++) {
             if (i==arr.length-1) {
