@@ -1,3 +1,4 @@
+// Check whether the given array is sorted or not.
 public class CheckIfAnArrayIsSorted {
     public static void main(String[] args) {
         System.out.println(isSortedNaive(new int[]{3, 6, 12, 21}));
