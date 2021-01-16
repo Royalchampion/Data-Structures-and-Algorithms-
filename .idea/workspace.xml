@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Array/src/EquilibriumPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/4. Array/src/EquilibriumPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. Array/src/FrequencyInASortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/4. Array/src/FrequencyInASortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/4. Array/EquilibriumPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/EquilibriumPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/4. Array/FrequencyInASortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/FrequencyInASortedArray.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EquilibriumPoint">
+  <component name="RunManager" selected="Application.FrequencyInASortedArray">
     <configuration name="EquilibriumPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EquilibriumPoint" />
       <module name="4. Array" />
@@ -51,15 +53,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MajorityElement" />
+    <configuration name="FrequencyInASortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FrequencyInASortedArray" />
       <module name="4. Array" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumConsecutiveFlip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MinimumConsecutiveFlip" />
+    <configuration name="MoveZerosToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MoveZerosToEnd" />
       <module name="4. Array" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowSlidingTechnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WindowSlidingTechnique" />
+    <configuration name="RemoveDuplicatesFromASortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveDuplicatesFromASortedArray" />
       <module name="4. Array" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FrequencyInASortedArray" />
+        <item itemvalue="Application.MoveZerosToEnd" />
+        <item itemvalue="Application.RemoveDuplicatesFromASortedArray" />
         <item itemvalue="Application.EquilibriumPoint" />
         <item itemvalue="Application.PrefixSumProblem" />
-        <item itemvalue="Application.WindowSlidingTechnique" />
-        <item itemvalue="Application.MinimumConsecutiveFlip" />
-        <item itemvalue="Application.MajorityElement" />
       </list>
     </recent_temporary>
   </component>
