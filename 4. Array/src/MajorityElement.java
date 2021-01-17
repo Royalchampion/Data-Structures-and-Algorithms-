@@ -1,3 +1,5 @@
+// Write a program to find the majority element in an array.
+// A majority element is an element which appears more than n/2 times(Where n=length of the array.)
 public class MajorityElement {
     public static void main(String[] args) {
         majorityElement(new int[]{8, 7, 6, 8, 6, 6, 6, 6});
