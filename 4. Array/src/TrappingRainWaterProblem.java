@@ -3,6 +3,8 @@ public class TrappingRainWaterProblem {
         System.out.println(calcRainWaterProblem(new int[]{3, 0, 1, 2, 5}));
     }
 
+//     Time Complexity : O(n)
+//     Auxiliary Space : O(1)
     public static int calcRainWaterProblem(int arr[]) {
         int base = 0;
         int result = 0;
