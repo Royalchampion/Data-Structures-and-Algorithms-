@@ -1,3 +1,4 @@
+// Write a program to find the maximum sum of the subarray or Write a program to implement kadane's algorithm.
 public class MaximumSubarraySum {
     public static void main(String[] args) {
         System.out.println(maxSum(new int[]{1, -2, 3, -1, 2}));
