@@ -3,6 +3,7 @@ public class MaximumCircularSubArray {
         System.out.println(overallMaxSum(new int[]{8, -4, 3, -5, 4}));
     }
 
+//     Kadane's algorithm
     public static int normalMaxSum(int arr[]) {
         int res = arr[0];
         int maxEnding = arr[0];
