@@ -21,4 +21,27 @@ public class EquilibriumPoint {
         }
         return false;
     }
+    
+//     Time Complexity : O(n)
+//     Space Complexity : O(1)
+    public static int findEquilibriumPointEfficient(int arr[]) {
+        int sum = 0;
+        int leftSum = 0;
+        
+        for(int i=0; i<arr.length; i++) {
+            sum += arr[i];
+        }
+        
+        for (int i=0; i<arr.length; i++) {
+            sum -= arr[i];
+            
+            if(sum == leftSum) {
+                return i + 1;
+            }
+            
+            leftSum += arr[i];
+        }
+        
+        return -1;
+    }
 }
