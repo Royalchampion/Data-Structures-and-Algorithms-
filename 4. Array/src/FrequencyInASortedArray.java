@@ -4,7 +4,7 @@ public class FrequencyInASortedArray {
         printFrequencyInASortedArray(new int[]{88});
     }
 
-//    Time Complexity : O(n)
+    //    Time Complexity : O(n)
 //    Space Complexity : O(1)
     public static void printFrequencyInASortedArray(int arr[]) {
         int freq = 1;

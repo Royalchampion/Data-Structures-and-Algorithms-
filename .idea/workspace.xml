@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/4. Array/src/FrequencyOfAlimitedRangeArrayElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Array/src/TrappingRainWaterProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/4. Array/src/TrappingRainWaterProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/CheckIfAnArrayIsSorted.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/CheckIfAnArrayIsSorted.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/EquilibriumPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/EquilibriumPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/LargestElementInAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/LargestElementInAnArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/LeadersInAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/LeadersInAnArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/LeftRotateAnArrayByDPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/LeftRotateAnArrayByDPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/LeftRotateAnArrayByOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/LeftRotateAnArrayByOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/MajorityElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/MaximumCircularSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/MaximumCircularSubArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/MaximumDifferenceProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/MaximumDifferenceProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/MaximumSubarraySum.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/MaximumSubarraySum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/MoveZerosToEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/MoveZerosToEnd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/RemoveDuplicatesFromASortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/RemoveDuplicatesFromASortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/ReverseAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/ReverseAnArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/SecondLargestElementInAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/SecondLargestElementInAnArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/TrappingRainWaterProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/TrappingRainWaterProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. Array/src/FrequencyInASortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/4. Array/src/FrequencyInASortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/4. Array/FrequencyInASortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/FrequencyInASortedArray.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TrappingRainWaterProblem">
+  <component name="RunManager" selected="Application.FrequencyInASortedArray">
     <configuration name="EquilibriumPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EquilibriumPoint" />
       <module name="4. Array" />
@@ -96,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TrappingRainWaterProblem" />
         <item itemvalue="Application.FrequencyInASortedArray" />
+        <item itemvalue="Application.TrappingRainWaterProblem" />
         <item itemvalue="Application.MoveZerosToEnd" />
         <item itemvalue="Application.RemoveDuplicatesFromASortedArray" />
         <item itemvalue="Application.EquilibriumPoint" />
