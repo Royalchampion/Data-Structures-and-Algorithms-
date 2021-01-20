@@ -1,9 +1,43 @@
 // Write a program for trapping rain water problem.
 public class TrappingRainWaterProblem {
     public static void main(String[] args) {
-        System.out.println(calcRainWaterProblem(new int[]{3, 0, 1, 2, 5}));
+        System.out.println(calcRainWaterProblem(new int[]{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}));
+        System.out.println(findWater(new int[]{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}));
     }
 
+    public static int findWater(int arr[]) {
+        int result = 0;
+
+        int leftMax = 0;
+        int rightMax = 0;
+
+        int initial = 0;
+        int last = arr.length - 1;
+
+        while (initial <= last) {
+            if (arr[initial] < arr[last]) {
+                if (leftMax < arr[initial]) {
+                    leftMax = arr[initial];
+                }
+                else {
+                    result += leftMax - arr[initial];
+                }
+                initial++;
+            }
+            else {
+                if (rightMax < arr[last]) {
+                    rightMax = arr[last];
+                }
+                else {
+                    result += rightMax - arr[last];
+                }
+                last--;
+            }
+        }
+        return result;
+    }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //     Time Complexity : O(n)
 //     Auxiliary Space : O(1)
     public static int calcRainWaterProblem(int arr[]) {
