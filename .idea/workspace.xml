@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4. Array/src/FrequencyOfAlimitedRangeArrayElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. Searching/src/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Array/src/FrequencyInASortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/4. Array/src/FrequencyInASortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/FrequencyInASortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/FrequencyInASortedArray.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,17 +44,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FrequencyInASortedArray">
-    <configuration name="EquilibriumPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EquilibriumPoint" />
+  <component name="RunManager" selected="Application.LinearSearch">
+    <configuration name="FrequencyInASortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FrequencyInASortedArray" />
       <module name="4. Array" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrequencyInASortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FrequencyInASortedArray" />
-      <module name="4. Array" />
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinearSearch" />
+      <module name="5. Searching" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.FrequencyInASortedArray" />
         <item itemvalue="Application.TrappingRainWaterProblem" />
         <item itemvalue="Application.MoveZerosToEnd" />
         <item itemvalue="Application.RemoveDuplicatesFromASortedArray" />
-        <item itemvalue="Application.EquilibriumPoint" />
       </list>
     </recent_temporary>
   </component>
