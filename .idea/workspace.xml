@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/5. Searching/src/Count1sInABinarySortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. Searching/src/SquareRoot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/5. Searching/CountOccurencesInAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/5. Searching/CountOccurencesInAnArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/5. Searching/Count1sInABinarySortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/5. Searching/Count1sInABinarySortedArray.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Count1sInABinarySortedArray">
+  <component name="RunManager" selected="Application.SquareRoot">
     <configuration name="Count1sInABinarySortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Count1sInABinarySortedArray" />
       <module name="5. Searching" />
@@ -80,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RecursiveBinarySearch" />
+    <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SquareRoot" />
       <module name="5. Searching" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SquareRoot" />
         <item itemvalue="Application.Count1sInABinarySortedArray" />
         <item itemvalue="Application.CountOccurencesInAnArray" />
         <item itemvalue="Application.IndexOfLastOccurenceInAnArray" />
         <item itemvalue="Application.IndexOfFirstOccurenceInAnArray" />
-        <item itemvalue="Application.RecursiveBinarySearch" />
       </list>
     </recent_temporary>
   </component>
