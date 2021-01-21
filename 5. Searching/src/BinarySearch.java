@@ -3,7 +3,7 @@ public class BinarySearch {
         System.out.println(binarySearch(new int[]{10, 20, 30, 40, 50}, 90));
     }
 
-//    Time Complexity : O(n)
+//    Time Complexity : O(log(n))
 //    Auxiliary Space : O(1)
     public static int binarySearch(int arr[], int x) {
         int low = 0;
