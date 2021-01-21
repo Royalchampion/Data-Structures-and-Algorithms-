@@ -8,7 +8,7 @@ public class LinearSearch {
 //    Linear Search : We're comparing each element one by one with the given number.
 //    Time Complexity : O(n)
 //    Auxiliary Space : O(1)
-    public static int binarySearch(int arr[], int number) {
+    public static int linearSearch(int arr[], int number) {
         int result=0;
         if (isSorted(arr)) {
             for (int i=0; i<arr.length; i++) {
