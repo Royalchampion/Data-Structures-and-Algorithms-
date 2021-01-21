@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class LinearSearch {
     public static void main(String[] args) {
-        System.out.println(binarySearch(new int[]{10, 10}, 10));
+        System.out.println(linearSearch(new int[]{10, 10}, 10));
     }
 
 //    Linear Search : We're comparing each element one by one with the given number.
