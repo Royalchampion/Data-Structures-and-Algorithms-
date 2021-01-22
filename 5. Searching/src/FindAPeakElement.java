@@ -2,10 +2,11 @@
 public class FindAPeakElement {
     public static void main(String[] args) {
         System.out.println(findPeakNaive(new int[]{10, 7, 8, 20, 12}));
+        System.out.println(findPeakElementEfficient(new int[]{10, 7, 8, 20, 12}));
     }
 
 //    Time Complexity : O(n)
-//    Space Complexity : O(1)
+//    Auxiliary Space : O(1)
     public static int findPeakNaive(int arr[]) {
         if (arr.length == 1) {
             return arr[0];
@@ -22,6 +23,26 @@ public class FindAPeakElement {
                 return arr[i];
             }
             i++;
+        }
+        return -1;
+    }
+
+//    Time Complexity : O(log(n))
+//    Auxiliary Space : O(1)
+    public static int findPeakElementEfficient(int arr[]) {
+        int low = 0;
+        int high = arr.length-1;
+        while (low <= high) {
+            int mid = (high + low)/2;
+            if ((mid==0 || arr[mid] >= arr[mid-1]) && (mid==arr.length-1 || arr[mid] >= arr[mid+1])) {
+                return arr[mid];
+            }
+            else if ((arr[mid] <= arr[mid-1])) {
+                high = mid - 1;
+            }
+            else {
+                low = mid + 1;
+            }
         }
         return -1;
     }
