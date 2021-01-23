@@ -1,6 +1,26 @@
 public class TwoPointerApproach {
     public static void main(String[] args) {
         twoPointerApproachNaive(new int[]{3, 5, 9, 2, 8, 10, 11}, 17);
+        System.out.println(twoPointerApproachEfficient(new int[]{3, 5, 9, 2, 8, 10, 11}, 100));
+    }
+
+//    Time Complexity : O(n)
+//    Auxiliary Space : O(1)
+    public static boolean twoPointerApproachEfficient(int arr[], int number) {
+        int left = 0;
+        int right = arr.length-1;
+        while (left<right) {
+            if (arr[left]+arr[right]==number) {
+                return true;
+            }
+            else if (arr[left]+arr[right]>number) {
+                right--;
+            }
+            else {
+                left++;
+            }
+        }
+        return false;
     }
 
 //    Time Complexity : O(n*n)
