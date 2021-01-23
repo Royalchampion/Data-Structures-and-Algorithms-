@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/5. Searching/src/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. Searching/src/RepeatingElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MajorityElement">
+  <component name="RunManager" selected="Application.RepeatingElements">
     <configuration name="FindAPeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindAPeakElement" />
       <module name="5. Searching" />
@@ -65,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInASortedRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SearchInASortedRotatedArray" />
+    <configuration name="RepeatingElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RepeatingElements" />
       <module name="5. Searching" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RepeatingElements" />
         <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.MedianOfTwoSortedArrays" />
         <item itemvalue="Application.TwoPointerApproach" />
         <item itemvalue="Application.FindAPeakElement" />
-        <item itemvalue="Application.SearchInASortedRotatedArray" />
       </list>
     </recent_temporary>
   </component>
