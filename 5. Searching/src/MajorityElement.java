@@ -29,8 +29,8 @@ public class MajorityElement {
             }
         }
         if (count<=arr.length/2) {
-            return arr[result];
+            result = -1;
         }
-        return -1;
+        return result;
     }
 }
