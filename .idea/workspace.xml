@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/5. Searching/src/MinimumNumberInASortedRotatedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. Searching/src/RepeatingElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/5. Searching/src/RepeatingElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/5. Searching/Count1sInABinarySortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/5. Searching/Count1sInABinarySortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/5. Searching/MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/5. Searching/MajorityElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/5. Searching/RepeatingElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/5. Searching/RepeatingElements.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Count1sInABinarySortedArray">
+  <component name="RunManager" selected="Application.RepeatingElements">
     <configuration name="Count1sInABinarySortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Count1sInABinarySortedArray" />
       <module name="5. Searching" />
@@ -81,8 +84,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Count1sInABinarySortedArray" />
         <item itemvalue="Application.RepeatingElements" />
+        <item itemvalue="Application.Count1sInABinarySortedArray" />
         <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.MedianOfTwoSortedArrays" />
         <item itemvalue="Application.TwoPointerApproach" />
