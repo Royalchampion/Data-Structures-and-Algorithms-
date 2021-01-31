@@ -37,9 +37,9 @@ public class SelectionSort {
     public static void selectSortEfficient(int arr[]) {
         int temp = 0;
         int n = arr.length;
-        for (int i=0; i<arr.length-1; i++) {
+        for (int i=0; i<n-1; i++) {
             int minInd = i;
-            for (int j=i+1; j<arr.length; j++) {
+            for (int j=i+1; j<n; j++) {
                 if (arr[j] < arr[minInd]) {
                     minInd = j;
                 }
