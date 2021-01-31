@@ -1,17 +1,18 @@
 import java.util.Arrays;
 
+// In selection sort algorithm, the minimum element is found out first and then it gets replaced with the initial element of the array.
 public class SelectionSort {
 
     public static void main(String[] args) {
         int arr[] = {3, 12, 4, 1, 5, 6};
         System.out.println(Arrays.toString(arr));
-        selectionSort(arr);
+        selectSortEfficient(arr);
         System.out.println(Arrays.toString(arr));
     }
 
 //    Time Complexity : O(n*n)
 //    Auxiliary Space : O(n)
-    public static void selectionSort(int arr[]) {
+    public static void selectionSortNaive(int arr[]) {
         int n = arr.length;
         int temp[] = new int[n];
         for (int i=0; i<n; i++) {
@@ -28,6 +29,24 @@ public class SelectionSort {
 //        Copy every elements from temp array to the original array.
         for (int i=0; i<arr.length; i++) {
             arr[i] = temp[i];
+        }
+    }
+
+//    Time Complexity : O(n*n)
+//    Auxiliary Space : O(1)
+    public static void selectSortEfficient(int arr[]) {
+        int temp = 0;
+        int n = arr.length;
+        for (int i=0; i<arr.length-1; i++) {
+            int minInd = i;
+            for (int j=i+1; j<arr.length; j++) {
+                if (arr[j] < arr[minInd]) {
+                    minInd = j;
+                }
+            }
+            temp = arr[minInd];
+            arr[minInd] = arr[i];
+            arr[i] = temp;
         }
     }
 }
