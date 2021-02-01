@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/6. Sorting/src/MergeSortWithThreeVars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6. Sorting/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/6. Sorting/src/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/6. Sorting/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/6. Sorting/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/6. Sorting/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/6. Sorting/SelectionSort.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager" selected="Application.MergeSortWithThreeVars">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BubbleSort" />
       <module name="6. Sorting" />
@@ -53,15 +51,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Count1sInABinarySortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Count1sInABinarySortedArray" />
-      <module name="5. Searching" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSort" />
+      <module name="6. Sorting" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSort" />
+    <configuration name="MergeSortWithThreeVars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSortWithThreeVars" />
       <module name="6. Sorting" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortWithThreeVars" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.RepeatingElements" />
-        <item itemvalue="Application.Count1sInABinarySortedArray" />
       </list>
     </recent_temporary>
   </component>
