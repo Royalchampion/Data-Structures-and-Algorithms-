@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/6. Sorting/src/PartitionAGivenArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6. Sorting/src/PartitionAGivenArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/6. Sorting/src/PartitionAGivenArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/6. Sorting/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/6. Sorting/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/6. Sorting/MergeSortWithThreeVars.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/6. Sorting/MergeSortWithThreeVars.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountInversionsInAnArray">
+  <component name="RunManager" selected="Application.PartitionAGivenArray">
     <configuration name="CountInversionsInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountInversionsInAnArray" />
       <module name="6. Sorting" />
@@ -58,15 +60,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSort" />
+    <configuration name="MergeSortWithThreeVars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSortWithThreeVars" />
       <module name="6. Sorting" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortWithThreeVars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSortWithThreeVars" />
+    <configuration name="PartitionAGivenArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PartitionAGivenArray" />
       <module name="6. Sorting" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PartitionAGivenArray" />
         <item itemvalue="Application.CountInversionsInAnArray" />
         <item itemvalue="Application.UnionOfTwoArrays" />
         <item itemvalue="Application.IntersectionOfTwoArrays" />
         <item itemvalue="Application.MergeSortWithThreeVars" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
