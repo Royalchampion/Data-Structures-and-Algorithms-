@@ -5,15 +5,26 @@ public class MergeSortWithThreeVars {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
-        mergeSort(arr, 0, 2, 4);
+        merge(arr, 0, 2, 4);
         for (int j=0; j<arr.length; j++) {
             System.out.print(arr[j] + " ");
         }
     }
 
+//    Time Complexity : O(nlog(n))
+//    Auxiliary Space : O(n)
+    public static void mergeSort(int arr[], int low, int right) {
+        if (right > low) {
+            int m = (low + right)/2;
+            mergeSort(arr, low, m);
+            mergeSort(arr, m+1, right);
+            merge(arr, low, m, right);
+        }
+    }
+
 //     Time Complexity : O(n)
 //     Auxiliary Space : O(n)
-    public static void mergeSort(int arr[], int low, int mid, int high) {
+    public static void merge(int arr[], int low, int mid, int high) {
         int n1 = mid - low + 1;
         int n2 = high - mid;
         int left[] = new int[n1];
