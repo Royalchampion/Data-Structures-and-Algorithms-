@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/6. Sorting/src/UnionOfTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6. Sorting/src/CountInversionsInAnArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +43,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UnionOfTwoArrays">
+  <component name="RunManager" selected="Application.CountInversionsInAnArray">
+    <configuration name="CountInversionsInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountInversionsInAnArray" />
+      <module name="6. Sorting" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntersectionOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntersectionOfTwoArrays" />
       <module name="6. Sorting" />
@@ -65,13 +72,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SelectionSort" />
-      <module name="6. Sorting" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UnionOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UnionOfTwoArrays" />
       <module name="6. Sorting" />
@@ -81,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountInversionsInAnArray" />
         <item itemvalue="Application.UnionOfTwoArrays" />
         <item itemvalue="Application.IntersectionOfTwoArrays" />
         <item itemvalue="Application.MergeSortWithThreeVars" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
