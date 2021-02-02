@@ -1,3 +1,5 @@
+// Implementation of merge function to be used in merge sorting algorithm.
+
 public class MergeSortWithThreeVars {
     public static void main(String[] args) {
         int arr[] = new int[]{10, 20, 40, 15, 30};
