@@ -1,3 +1,5 @@
+// A program to merge two sorted arrays.
+
 import java.util.Arrays;
 
 public class MergeSort {
