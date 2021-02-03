@@ -1,3 +1,5 @@
+// This quick sort algorithm is implemented using Haore's partition and is said to be 3 times faster than lomuto's partition approach.
+
 public class QuickSort2 {
     public static void main(String[] args) {
         int arr[] = new int[]{8, 4, 7, 9, 3, 10, 5};
