@@ -1,3 +1,5 @@
+// This quick sort is implemented using the lomuto partition. 
+
 public class QuickSort {
     public static void main(String[] args) {
         int arr[] = new int[]{8,4,7,9,3,10,5};
