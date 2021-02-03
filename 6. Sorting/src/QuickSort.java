@@ -6,7 +6,7 @@ public class QuickSort {
             System.out.println(arr[i]);
         }
     }
-    
+
 //    Time Complexity : O(n)
 //    Auxiliary Space : O(1)
     public static void quickSort(int arr[], int low, int high) {
