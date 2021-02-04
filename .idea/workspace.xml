@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/6. Sorting/src/ChocolateDistributionProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6. Sorting/src/KthSmallestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/6. Sorting/src/KthSmallestElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/6. Sorting/QuickSort2.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/6. Sorting/QuickSort2.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,9 +43,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KthSmallestElement">
-    <configuration name="CountInversionsInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountInversionsInAnArray" />
+  <component name="RunManager" selected="Application.ChocolateDistributionProblem">
+    <configuration name="ChocolateDistributionProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChocolateDistributionProblem" />
       <module name="6. Sorting" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChocolateDistributionProblem" />
         <item itemvalue="Application.KthSmallestElement" />
         <item itemvalue="Application.QuickSort2" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.PartitionAGivenArray" />
-        <item itemvalue="Application.CountInversionsInAnArray" />
       </list>
     </recent_temporary>
   </component>
