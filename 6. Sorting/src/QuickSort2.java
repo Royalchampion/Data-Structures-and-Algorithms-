@@ -9,8 +9,11 @@ public class QuickSort2 {
         }
     }
 
-//    Time Complexity : O(n)
+//    Best Time Complexity : O(nlog(n))
+//    Average Time Complexity : O(nlog(n))
+//    Worst Time Complexity : O(n*n)
 //    Auxiliary Space : O(1)
+//    However, In recursion call stack the auxiliary space becomes O(n).
     public static void quickSort(int arr[], int low, int high) {
         if (low < high) {
             int partitionPoint = hoarePartition(arr, low, high);
