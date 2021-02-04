@@ -1,6 +1,7 @@
+// We solved this problem for pos and neg numbers but we can also solve this problem for even-odd and 0-1s.
 public class SortAnElementWithTwoTypesOfArray {
     public static void main(String[] args) {
-        int arr[] = new int[]{13, -12, 18, -10};
+        int arr[] = new int[]{0, 1, 1, 1, 0};
         segregatePosNeg(arr);
         for (int i : arr) {
             System.out.print(i + " ");
@@ -16,11 +17,11 @@ public class SortAnElementWithTwoTypesOfArray {
         while (i <= j) {
             do {
                 i++;
-            } while (arr[i] < 0);
+            } while (arr[i] == 0);
 
             do {
                 j--;
-            } while (arr[j] > 0);
+            } while (arr[j] == 1);
 
             if (i>j) {
                 return;
