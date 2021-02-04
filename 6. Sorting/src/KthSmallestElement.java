@@ -1,12 +1,24 @@
 // Find kth element in an array.
 
+import java.util.Arrays;
+
 public class KthSmallestElement {
     public static void main(String[] args) {
         int arr[] = new int[]{10, 4, 5, 8, 11, 6, 26};
         int index = quickSelect(arr, 5);
         System.out.println(arr[index]);
+        System.out.println(kthSmallestElement(arr, 5));
     }
 
+//    Time Complexity : O(nlog(n))
+//    Auxiliary Space : O(1)
+    public static int kthSmallestElement(int arr[], int k) {
+        Arrays.sort(arr);
+        return arr[k-1];
+    }
+
+//    This algorithm is said to be more efficient as compared to the kthSmallestElement() method, even though the time complexity of quick select algo
+//    is O(n*n). Bcoz in terms of avg case, quick select algorithm runs linearly.
 //    This is quick select algorithm in order to findout kth smallest element.
 //    Time Complexity : O(n*n)
 //    Auxiliary Space : O(1)
