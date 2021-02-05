@@ -1,5 +1,5 @@
 // This program is also known as Dutch National Flag Algorithm.
-public class sortAnElementWithThreeTypesOfArray {
+public class SortAnArrayWithThreeTypesOfElements {
     public static void main(String[] args) {
         int arr[] = new int[]{0, 2, 2, 1, 2, 1, 0};
         sort(arr);

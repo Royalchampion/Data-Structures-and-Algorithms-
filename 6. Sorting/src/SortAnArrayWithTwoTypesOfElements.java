@@ -1,5 +1,5 @@
 // We solved this problem for pos and neg numbers but we can also solve this problem for even-odd and 0-1s.
-public class SortAnElementWithTwoTypesOfArray {
+public class SortAnArrayWithTwoTypesOfElements {
     public static void main(String[] args) {
         int arr[] = new int[]{0, 1, 1, 1, 0};
         segregatePosNeg(arr);
