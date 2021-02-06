@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/6. Sorting/src/CheckWhetherAnArrayContainTriplet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7. Matrix/7. Matrix.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7. Matrix/src/MultiDimensionalArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckWhetherAnArrayContainTriplet">
+  <component name="RunManager" selected="Application.MultiDimensionalArray">
     <configuration name="CheckWhetherAnArrayContainTriplet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CheckWhetherAnArrayContainTriplet" />
       <module name="6. Sorting" />
@@ -58,16 +60,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Interval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interval" />
+    <configuration name="MeetingTheMaxGuests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MeetingTheMaxGuests" />
       <module name="6. Sorting" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MeetingTheMaxGuests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MeetingTheMaxGuests" />
-      <module name="6. Sorting" />
+    <configuration name="MultiDimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiDimensionalArray" />
+      <module name="7. Matrix" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiDimensionalArray" />
         <item itemvalue="Application.CheckWhetherAnArrayContainTriplet" />
         <item itemvalue="Application.FindNoOfPossibleTriangles" />
         <item itemvalue="Application.SortAnArrayWithTwoTypesOfElements" />
         <item itemvalue="Application.MeetingTheMaxGuests" />
-        <item itemvalue="Application.Interval" />
       </list>
     </recent_temporary>
   </component>
