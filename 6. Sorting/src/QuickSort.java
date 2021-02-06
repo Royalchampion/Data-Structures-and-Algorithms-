@@ -9,7 +9,9 @@ public class QuickSort {
         }
     }
 
-//    Time Complexity : O(n)
+//    Best Time Complexity : O(nlog(n))
+//    Average Time Complexity : O(nlog(n))
+//    Worst Time Complexity : O(n*n) 
 //    Auxiliary Space : O(1)
     public static void quickSort(int arr[], int low, int high) {
         if (low < high) {

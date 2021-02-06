@@ -1,3 +1,4 @@
+// The array is virtually split into a sorted and an unsorted array. Element from the unsorted array is picked up and then gets placed onto the right position in sorted part. 
 public class InsertionSort {
 //    Time Complexity : O(n*n)
 //    Auxiliary Space : O(1)
