@@ -4,12 +4,13 @@ public class SearchInARowWiseAndColumnWiseSortedArray {
                         {5, 6, 7, 8, 17, 19},
                         {9, 10, 11, 12},
                         {13, 14, 15, 16}};
-        search(arr, 19);
+        searchNaive(arr, 19);
+        searchEfficient(arr, 12);
     }
 
 //    Time Complexity : O(m*n)
-//    Auxiliary SpacE : O(1)
-    public static void search(int arr[][], int x) {
+//    Auxiliary Space : O(1)
+    public static void searchNaive(int arr[][], int x) {
         for (int i=0; i<arr.length; i++) {
             for (int j=0; j<arr[i].length; j++) {
                 if (arr[i][j]==x) {
@@ -19,5 +20,26 @@ public class SearchInARowWiseAndColumnWiseSortedArray {
             }
         }
         System.out.print("Not Found!");
+    }
+
+    public static int R = 4, C = 4;
+
+//    Time Complexity : O(R + C)
+//    Auxiliary Space : O(1)
+    public static void searchEfficient(int arr[][], int x) {
+        int i=0, j=arr[i].length-1;
+        while (i<C && j>=0) {
+            if (arr[i][j]==x) {
+                System.out.print("Positions of x : " + i + " & " + j);
+                return;
+            }
+            else if (arr[i][j]>x) {
+                j--;
+            }
+            else {
+                i++;
+            }
+        }
+        System.out.println("Not Found!");
     }
 }
