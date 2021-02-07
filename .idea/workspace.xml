@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/7. Matrix/src/SpiralMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7. Matrix/src/RotateAMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/7. Matrix/src/RotateAMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/7. Matrix/RotateAMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/7. Matrix/RotateAMatrix.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RotateAMatrix">
+  <component name="RunManager" selected="Application.SpiralMatrix">
     <configuration name="MatrixBoundaryTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MatrixBoundaryTraversal" />
       <module name="7. Matrix" />
@@ -59,15 +59,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiDimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiDimensionalArray" />
+    <configuration name="RotateAMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RotateAMatrix" />
       <module name="7. Matrix" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateAMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RotateAMatrix" />
+    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SpiralMatrix" />
       <module name="7. Matrix" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpiralMatrix" />
         <item itemvalue="Application.RotateAMatrix" />
         <item itemvalue="Application.TransposeOfAMatrix" />
         <item itemvalue="Application.MatrixBoundaryTraversal" />
         <item itemvalue="Application.MatrixInSnakePattern" />
-        <item itemvalue="Application.MultiDimensionalArray" />
       </list>
     </recent_temporary>
   </component>
