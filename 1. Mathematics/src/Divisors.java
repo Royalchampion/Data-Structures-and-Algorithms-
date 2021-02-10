@@ -1,7 +1,7 @@
 // A program to print all divisors of a number.
 public class Divisors {
     public static void main(String[] args) {
-        divisorsOfAllNumbers(100);
+        allDivisorsOfANumber(100);
     }
 
     public static void allDivisorsOfANumber(int number) {
