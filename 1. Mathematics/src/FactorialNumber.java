@@ -4,6 +4,8 @@ public class FactorialNumber {
         System.out.println(factorial(3));
     }
 
+//    Time Complexity : O(n)
+//    Auxiliary Space : O(1)
     public static int factorial(int number) {
         int factorial = 1;
 

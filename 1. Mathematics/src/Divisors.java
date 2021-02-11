@@ -4,6 +4,8 @@ public class Divisors {
         allDivisorsOfANumber(100);
     }
 
+//    Time Complexity : O(n^0.5)
+//    Auxiliary Space : O(1)
     public static void allDivisorsOfANumber(int number) {
         for (int i=1; i*i<=number; i++) {
             if (number%i == 0) {
