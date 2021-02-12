@@ -5,6 +5,7 @@ public class CountSubsets {
         System.out.println(countSubsets(new int[]{10, 20, 15}, 3, 25));
     }
 
+//    Time Complexity : O(2^n)
     public static int countSubsets(int inputArray[], int n, int sum) {
         if (n==0) {
             return (sum==0)?1:0;
