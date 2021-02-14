@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3. Recursion/src/PowerSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. Recursion/src/PhoneNumberProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/3. Recursion/CountSubsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/3. Recursion/CountSubsets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/3. Recursion/SubsetsUsingRecursion.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
