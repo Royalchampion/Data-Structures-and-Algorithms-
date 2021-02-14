@@ -3,6 +3,7 @@ public class TowerOfHanoi {
         towerOfHanoi(3, 'A', 'B', 'C');
     }
 
+//     Time Complexity : O(2**n)
     public static void towerOfHanoi(int n, char A, char B, char C) {
         if (n==1) {
             System.out.println("Move 1 from " + A + " to " + C);
