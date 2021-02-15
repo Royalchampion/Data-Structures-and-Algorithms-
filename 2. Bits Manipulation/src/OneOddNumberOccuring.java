@@ -6,6 +6,11 @@ public class OneOddNumberOccuring {
 
 //     Time Complexity : O(n)
 //     Auxiliary Space : O(1)
+//     EX-OR property : 
+//     x ^ 0 = x;
+//     x ^ y = y ^ x;
+//     (x ^ y) ^ z = x ^ (y ^ z)
+//     x ^ x = 0
     public static int findOdd(int arr[]) {
         int result = 0;
         for (int i = 0; i < arr.length; i++) {
