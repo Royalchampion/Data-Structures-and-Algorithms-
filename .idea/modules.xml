@@ -11,6 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/7. Matrix/7. Matrix.iml" filepath="$PROJECT_DIR$/7. Matrix/7. Matrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/8. Hashing/8. Hashing.iml" filepath="$PROJECT_DIR$/8. Hashing/8. Hashing.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Data Structures And Algorithms.iml" filepath="$PROJECT_DIR$/.idea/Data Structures And Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leetcode/Mathematics/Easy/Easy.iml" filepath="$PROJECT_DIR$/Leetcode/Mathematics/Easy/Easy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leetcode/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode/Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leetcode/Mathematics/Mathematics.iml" filepath="$PROJECT_DIR$/Leetcode/Mathematics/Mathematics.iml" />
     </modules>
   </component>
 </project>
