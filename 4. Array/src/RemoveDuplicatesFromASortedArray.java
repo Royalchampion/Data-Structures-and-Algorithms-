@@ -24,7 +24,7 @@ public class RemoveDuplicatesFromASortedArray {
     }
 
 //    Time Complexity : O(n)
-//    Space Complexity : O(1)
+//    Auxiliary Space : O(n)
     public static int removeDuplicatesNaive(int arr[]) {
         int n = arr.length;
         int temp[] = new int[n];
