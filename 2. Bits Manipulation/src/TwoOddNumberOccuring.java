@@ -3,6 +3,8 @@ public class TwoOddNumberOccuring {
         oddAppearingNaive(new int[]{4, 4, 4, 4, 5, 3, 3, 3});
     }
 
+//     Time Complexity : O(n^2)
+//     Auxiliary Space : O(1)
     public static void oddAppearingNaive(int arr[]) {
         for (int i=0; i<arr.length; i++) {
             int count=0;
