@@ -1,4 +1,6 @@
 public class ProductAndSumDifference {
+//     Time Complexity : O(log(n))
+//     Auxiliary Space : O(1)
     public static int differenceBetweenProductAndSum(int number) {
         int product = 1;
         int sum = 0;
