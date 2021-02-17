@@ -24,7 +24,7 @@ public class MaximumSubarraySum {
 //    Kadane's Algorithm
     public static int maxSumKadaneAlgo(int arr[]) {
         int res = arr[0];
-        int maxEnding = arr[0];
+        int maxEnding = 0;
         for (int i=1; i<arr.length; i++) {
             maxEnding = Math.max(maxEnding + arr[i], arr[i]);
             res = Math.max(maxEnding, res);
