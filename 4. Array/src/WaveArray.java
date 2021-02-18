@@ -1,5 +1,7 @@
 public class WaveArray {
     public static void convertToWave(int arr[], int n){
+//         Time Complexity : O(n)
+//         Auxiliary Space : O(1)
         for (int i=0; i<arr.length-1; i+=2) {
             int temp = 0;
             temp = arr[i];
