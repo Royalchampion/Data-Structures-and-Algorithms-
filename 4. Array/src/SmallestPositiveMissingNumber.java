@@ -1,6 +1,6 @@
 public class SmallestPositiveMissingNumber {
 //    Time Complexity : O(n)
-//    Auxiliary Space : O(1)
+//    Auxiliary Space : O(n)
     static int missingNumber(int arr[], int size)
     {
         int n = arr.length;
