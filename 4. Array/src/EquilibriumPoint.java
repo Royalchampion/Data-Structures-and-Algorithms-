@@ -1,6 +1,7 @@
 public class EquilibriumPoint {
     public static void main(String[] args) {
         System.out.println(findEquilibriumPoint(new int[]{4, 1, -2}));
+        System.out.println(findEquilibriumPointEfficient(new int[]{-7, 1, 5, 2, -4, 3, 0}));
     }
 
 //    Time Complexity : O(n^2)
