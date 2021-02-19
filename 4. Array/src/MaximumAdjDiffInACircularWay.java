@@ -1,4 +1,6 @@
 public class MaximumAdjDiffInACircularWay {
+//     Time Complexity : O(n)
+//     Auxiliary Space : O(1)
     public static int minAdjDiff(int arr[], int n) {
         int minAdjDiff = 0;
         int result = 0;

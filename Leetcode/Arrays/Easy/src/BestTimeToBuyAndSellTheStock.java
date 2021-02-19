@@ -1,4 +1,6 @@
 public class BestTimeToBuyAndSellTheStock {
+//     Time Complexity : O(n)
+//     Auxiliary Space : O(1)
     public static int stock(int[] array) {
         int minValue = 0;
         int profit = 0;
