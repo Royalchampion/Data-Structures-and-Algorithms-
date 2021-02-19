@@ -1,6 +1,7 @@
 public class WaveArray {
     public static void convertToWave(int arr[]){
-//         This method only works if the given array is sorted.
+//         This method only works if the given array is sorted. You can still follow this approach even if the given array is not sorted. All you have to do is, sort the array and
+//         then follow this approach.(Time Complexity for this approach would be O(nlog(n))).
 //         Time Complexity : O(n)
 //         Auxiliary Space : O(1)
         for (int i=0; i<arr.length-1; i+=2) {
