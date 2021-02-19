@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/4. Array/src/RearrangeTheArrayAlternatively.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Array/src/EquilibriumPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/4. Array/src/EquilibriumPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Array/src/SmallestPositiveMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/4. Array/src/SmallestPositiveMissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/EquilibriumPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/EquilibriumPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/FrequencyInASortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/FrequencyInASortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/TrappingRainWaterProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/TrappingRainWaterProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/4. Array/LongestEvenOddSubarray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/LongestEvenOddSubarray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/4. Array/MaximumAdjDiffInACircularWay.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/MaximumAdjDiffInACircularWay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/4. Array/MaximumSubarraySum.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/MaximumSubarraySum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/4. Array/SmallestPositiveMissingNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/SmallestPositiveMissingNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/4. Array/WaveArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/WaveArray.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EquilibriumPoint">
+  <component name="RunManager" selected="Application.RearrangeTheArrayAlternatively">
     <configuration name="CountSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountSubsets" />
       <module name="3. Recursion" />
@@ -76,20 +77,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice" />
-      <module name="3. Recursion" />
+    <configuration name="RearrangeTheArrayAlternatively" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RearrangeTheArrayAlternatively" />
+      <module name="4. Array" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RearrangeTheArrayAlternatively" />
         <item itemvalue="Application.EquilibriumPoint" />
         <item itemvalue="Application.Maximum69NumberProblem" />
         <item itemvalue="Application.CountSubsets" />
         <item itemvalue="Application.GenerateSubsets" />
-        <item itemvalue="Application.Practice (1)" />
       </list>
     </recent_temporary>
   </component>
