@@ -4,6 +4,7 @@ public class SearchInAnInfiniteArray {
         System.out.println(search(arr, 100));
     }
 
+//     Unbounded binary search algorithm
 //    Time Complexity : O(log(pos))
 //    Auxiliary Space : O(1)
     public static int searchEfficient(int arr[], int number) {
