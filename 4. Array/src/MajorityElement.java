@@ -21,4 +21,19 @@ public class MajorityElement {
         }
         System.out.println();
     }
+    
+//     Time Complexity : O(n)
+//     Auxiliary Space : O(1)
+    public static void majorityElementEfficient(int arr[]) {
+        Integer candidate = null;
+        int count = 0;
+        
+        for(int i=0; i<arr.length; i++) {
+            if(count==0) {
+                candidate=arr[i];
+            }
+            int count += (candidate==arr[i])? 1:-1;
+        }
+        return candidate;
+    }
 }
