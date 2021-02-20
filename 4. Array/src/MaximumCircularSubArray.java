@@ -6,7 +6,7 @@ public class MaximumCircularSubArray {
 //     Kadane's algorithm
     public static int normalMaxSum(int arr[]) {
         int res = arr[0];
-        int maxEnding = arr[0];
+        int maxEnding = 0;
         for (int i=1; i<arr.length; i++) {
             maxEnding = Math.max(maxEnding + arr[i], arr[i]);
             res = Math.max(maxEnding, res);
