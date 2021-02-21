@@ -13,8 +13,8 @@ public class SearchInASortedRotatedArray {
             if (arr[mid]==number) {
                 return mid;
             }
-            else if (arr[mid] > arr[0]) {
-                if (number >= arr[0] && number < arr[mid]) {
+            else if (arr[mid] >= arr[low]) {
+                if (number >= arr[low] && number < arr[mid]) {
                     high = mid - 1;
                 }
                 else {
@@ -22,7 +22,7 @@ public class SearchInASortedRotatedArray {
                 }
             }
             else {
-                if (number > arr[mid] && number <= arr[arr.length-1]) {
+                if (number > arr[mid] && number <= arr[high]) {
                     low = mid + 1;
                 }
                 else {
