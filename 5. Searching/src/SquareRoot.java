@@ -7,14 +7,14 @@ public class SquareRoot {
 //    Time Complexity : O(log(n))
 //    Auxiliary Space : O(1)
     public static int findSquareRootEfficient(int number) {
-        int low = 1;
-        int high = number;
-        int result = -1;
+        long low = 1;
+        long high = number;
+        long result = -1;
         while (low <= high) {
-            int mid = (low + high) / 2;
-            int sqr = mid*mid;
+            long mid = (low + high) / 2;
+            long sqr = mid*mid;
             if (sqr == number) {
-                return mid;
+                return (int)mid;
             }
             else if (sqr > number) {
                 high = mid - 1;
@@ -24,16 +24,16 @@ public class SquareRoot {
                 result = mid;
             }
         }
-        return result;
+        return (int)result;
     }
 
 //    Time Complexity : O(sqrt(n))
 //    Auxiliary Space : O(1)
     public static int findSquareRootNaive(int number) {
-        int i=1;
+        long i=1;
         while (i*i <= number) {
             i++;
         }
-        return i-1;
+        return (int)i-1;
     }
 }
