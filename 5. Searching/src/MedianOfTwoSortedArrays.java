@@ -34,4 +34,61 @@ public class MedianOfTwoSortedArrays {
         }
         return -1;
     }
+
+//    Time Complexity : O(log(min(m,n)))
+//    Auxiliary Space : O(1)
+    public static double findMedianEfficient(int[] arr1, int[] arr2) {
+        int m = arr1.length;
+        int n = arr2.length;
+        if(m>n) {
+            int[] temp = arr1;
+            arr1 = arr2;
+            arr2 = temp;
+            int temp1 = m;
+            m = n;
+            n = temp1;
+        }
+        int begin = 0;
+        int end = m;
+        while (begin<=end) {
+            int i = (begin + end)/2;
+            int j = ((m+n+1)/2)-i;
+            if(i>begin && arr1[i-1]>arr2[j]) {
+                end = i - 1;
+            }
+            else if (i<end && arr1[i]<arr2[j-1]) {
+                begin = i + 1;
+            }
+            else {
+                int maxLeft = 0;
+                if (i==0) {
+                    maxLeft = arr2[j-1];
+                }
+                else if (j==0) {
+                    maxLeft = arr1[i-1];
+                }
+                else {
+                    maxLeft = Math.max(arr1[i-1], arr2[j-1]);
+                }
+                if ((m+n)%2==1) {
+                    return maxLeft;
+                }
+
+                int minRight = 0;
+                if (i==m) {
+                    minRight = arr2[j];
+                }
+                else if (j==n) {
+                    minRight = arr1[j];
+                }
+                else {
+                    minRight = Math.min(arr1[j], arr2[j]);
+                }
+                if ((m+n)%2==0) {
+                    return (maxLeft+minRight)/2;
+                }
+            }
+        }
+        return 0.0;
+    }
 }
