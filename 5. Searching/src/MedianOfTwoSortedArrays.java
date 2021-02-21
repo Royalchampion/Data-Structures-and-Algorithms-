@@ -3,7 +3,7 @@ public class MedianOfTwoSortedArrays {
         System.out.println(getMedian(new int[]{10, 20, 30, 40, 50}, new int[]{5, 15, 25, 35, 45}));
     }
 
-//    Time Complexity : O(log(n))
+//    Time Complexity : O(log(n1))
 //    Auxiliary Space : O(1)
     public static double getMedian(int array1[], int array2[]) {
         int n1 = array1.length;
