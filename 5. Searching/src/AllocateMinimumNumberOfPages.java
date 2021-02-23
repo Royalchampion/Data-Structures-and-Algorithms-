@@ -23,7 +23,7 @@ public class AllocateMinimumNumberOfPages {
         return true;
     }
 
-//  Time Complexity : O(log(n))
+//  Time Complexity : O(nlog(n))
 //  Auxiliary Space : O(1)
     public static int findPages(int[] arr, int k) {
         int n = arr.length;
