@@ -67,7 +67,7 @@ public class CountMoreThanNK {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 4, 5, 6, 7, 8, 4, 4 };
+        int[] arr = {3,1,2,2,1,2,3,3};
         int k = 3;
         moreThanNK(arr, k);
     }
