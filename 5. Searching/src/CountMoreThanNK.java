@@ -4,6 +4,8 @@ public class CountMoreThanNK {
         int count;
     }
 
+//     Time Complexity : O(nk)
+//     Auxiliary Space : O(k)
     public static void moreThanNK(int[] arr, int k) {
         int n = arr.length;
 
