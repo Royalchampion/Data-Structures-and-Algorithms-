@@ -36,6 +36,7 @@ public class MedianOfTwoSortedArrays {
         return -1;
     }
 
+//    This approach is applicable in every possible situation.
 //    Time Complexity : O(log(min(m,n)))
 //    Auxiliary Space : O(1)
     public static double findMedianEfficient(int[] arr1, int[] arr2) {
