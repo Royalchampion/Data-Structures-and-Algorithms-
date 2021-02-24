@@ -1,4 +1,5 @@
 // A program to merge two sorted arrays.
+// Note : This is not a merge sort algorithm.
 
 import java.util.Arrays;
 
