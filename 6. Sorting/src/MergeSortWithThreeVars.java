@@ -32,10 +32,10 @@ public class MergeSortWithThreeVars {
         int left[] = new int[n1];
         int right[] = new int[n2];
         for (int i=0; i<left.length; i++) {
-            left[i] = arr[i];
+            left[i] = arr[low + i];
         }
         for (int j=0; j<right.length; j++) {
-            right[j] = arr[mid + 1 + j];
+            right[j] = arr[n1 + j];
         }
         int i=0;
         int j=0;

@@ -7,6 +7,7 @@ public class FindNoOfPossibleTriangles {
 //    Time Complexity : O(n*n)
 //    Auxiliary Space : O(1)
     public static int countTotalNoOfPossibleTriangle(int arr[]) {
+        Arrays.sort(arr);
         int count = 0;
         for (int i=arr.length-1; i>=0; i--) {
             int low = 0;

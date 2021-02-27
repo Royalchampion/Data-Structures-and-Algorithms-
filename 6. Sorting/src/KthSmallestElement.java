@@ -40,6 +40,7 @@ public class KthSmallestElement {
         return -1;
     }
 
+//  Lomuto's method
     public static int partition(int arr[], int left, int right) {
         int pivot = arr[right];
         int i = left - 1;
