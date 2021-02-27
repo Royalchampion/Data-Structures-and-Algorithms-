@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/6. Sorting/src/CountingSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/6. Sorting/CheckWhetherAnArrayContainTriplet.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/6. Sorting/CheckWhetherAnArrayContainTriplet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6. Sorting/src/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/6. Sorting/src/CountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6. Sorting/src/FindNoOfPossibleTriangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/6. Sorting/src/FindNoOfPossibleTriangles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6. Sorting/src/MakeArithmeticProgression.java" beforeDir="false" afterPath="$PROJECT_DIR$/6. Sorting/src/MakeArithmeticProgression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6. Sorting/src/SortArrayByParity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/6. Sorting/src/SortArrayByParity2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/6. Sorting/CountingSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/6. Sorting/CountingSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/6. Sorting/FindNoOfPossibleTriangles.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/6. Sorting/FindNoOfPossibleTriangles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/6. Sorting/KthSmallestElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/6. Sorting/KthSmallestElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/6. Sorting/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/6. Sorting/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/6. Sorting/MergeSortWithThreeVars.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/6. Sorting/MergeSortWithThreeVars.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,16 +66,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EquilibriumPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EquilibriumPoint" />
-      <module name="4. Array" />
+    <configuration name="FindNoOfPossibleTriangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindNoOfPossibleTriangles" />
+      <module name="6. Sorting" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RearrangeTheArrayAlternatively" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RearrangeTheArrayAlternatively" />
-      <module name="4. Array" />
+    <configuration name="MakeArithmeticProgression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MakeArithmeticProgression" />
+      <module name="6. Sorting" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,10 +90,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.CountingSort" />
+        <item itemvalue="Application.FindNoOfPossibleTriangles" />
+        <item itemvalue="Application.MakeArithmeticProgression" />
         <item itemvalue="Application.SubarrayWithGivenSum" />
         <item itemvalue="Application.CountMoreThanNK" />
-        <item itemvalue="Application.RearrangeTheArrayAlternatively" />
-        <item itemvalue="Application.EquilibriumPoint" />
       </list>
     </recent_temporary>
   </component>

@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 // We could have solved this problem using brute-force strategy but it's time complexity would be O(n*n*n).
 public class FindNoOfPossibleTriangles {
     public static void main(String[] args) {

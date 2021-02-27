@@ -1,7 +1,9 @@
+import java.util.Arrays;
+
 class MakeArithmeticProgression {
 //   Time Complexity : O(n)
 //   Auxiliary Space : O(1)
-    public boolean canMakeArithmeticProgression(int[] arr) {
+    public static boolean canMakeArithmeticProgression(int[] arr) {
         Arrays.sort(arr);
         if(arr.length<=2) {
             return true;
@@ -16,5 +18,10 @@ class MakeArithmeticProgression {
             }
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+        int arr[] = new int[]{1, 2, 4};
+        System.out.println(canMakeArithmeticProgression(arr));
     }
 }
