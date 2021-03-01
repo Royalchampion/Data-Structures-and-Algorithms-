@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/6. Sorting/src/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6. Sorting/src/MergeTwoSortedArraysWithoutExtraSpace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/6. Sorting/ShellSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/6. Sorting/ShellSort.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShellSort">
+  <component name="RunManager" selected="Application.MergeTwoSortedArraysWithoutExtraSpace">
     <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountingSort" />
       <module name="6. Sorting" />
@@ -65,6 +66,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeTwoSortedArraysWithoutExtraSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeTwoSortedArraysWithoutExtraSpace" />
+      <module name="6. Sorting" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ShellSort" />
       <module name="6. Sorting" />
@@ -72,20 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubarrayWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SubarrayWithGivenSum" />
-      <module name="5. Searching" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTwoSortedArraysWithoutExtraSpace" />
         <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.CountingSort" />
         <item itemvalue="Application.FindNoOfPossibleTriangles" />
         <item itemvalue="Application.MakeArithmeticProgression" />
-        <item itemvalue="Application.SubarrayWithGivenSum" />
       </list>
     </recent_temporary>
   </component>
