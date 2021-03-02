@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/6. Sorting/src/MergeThreeSortedArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6. Sorting/src/MergeTwoSortedArraysWithoutExtraSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/6. Sorting/src/MergeTwoSortedArraysWithoutExtraSpace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/6. Sorting/MergeTwoSortedArraysWithoutExtraSpace.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/6. Sorting/MergeTwoSortedArraysWithoutExtraSpace.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeTwoSortedArraysWithoutExtraSpace">
+  <component name="RunManager" selected="Application.MergeThreeSortedArrays">
     <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountingSort" />
       <module name="6. Sorting" />
@@ -59,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakeArithmeticProgression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MakeArithmeticProgression" />
+    <configuration name="MergeThreeSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeThreeSortedArrays" />
       <module name="6. Sorting" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeThreeSortedArrays" />
         <item itemvalue="Application.MergeTwoSortedArraysWithoutExtraSpace" />
         <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.CountingSort" />
         <item itemvalue="Application.FindNoOfPossibleTriangles" />
-        <item itemvalue="Application.MakeArithmeticProgression" />
       </list>
     </recent_temporary>
   </component>
