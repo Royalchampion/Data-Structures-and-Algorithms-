@@ -1,9 +1,8 @@
 public class TransposeOfAMatrix {
     public static void main(String[] args) {
-        int arr[][] = {{1, 2, 3, 4},
-                        {5, 6, 7, 8},
-                        {9, 10, 11, 12},
-                        {13, 14, 15, 16}};
+        int arr[][] = {{1, 2, 3},
+                        {5, 6, 7},
+                        {4, 8, 9}};
         transpose(arr);
         for (int i=0; i<arr.length; i++) {
             for (int j=0; j<arr.length; j++) {
@@ -13,6 +12,7 @@ public class TransposeOfAMatrix {
         }
     }
 
+//    This method is only applicable for the matrix with the same number of rows and columns.
 //    Time Complexity : O(n*n)
 //    Auxiliary Space : O(1)
     public static void transpose(int arr[][]) {
