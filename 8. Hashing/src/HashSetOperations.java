@@ -1,6 +1,7 @@
 import java.util.HashSet;
 import java.util.Iterator;
 
+// HashSet data structure is used to store keys only.
 public class HashSetOperations {
     public static void main(String[] args) {
         HashSet<String> keywords = new HashSet<String>();
