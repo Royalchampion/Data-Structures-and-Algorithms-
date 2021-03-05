@@ -10,16 +10,20 @@ public class HashSetOperations {
         keywords.add("Salman");
         keywords.add("Ganesh");
         System.out.println(keywords);
+
         //  Contains operation on hashset
         System.out.println(keywords.contains("Suraj"));
         System.out.println(keywords.contains("Ronaldo"));
+
         //  Iterators on hashset
         Iterator<String> iterator = keywords.iterator();
         while (iterator.hasNext()) {
             System.out.print(iterator.next() + " ");
         }
+
         //  size operation on hashset
         System.out.println("The size of hashset data structure is : " + keywords.size());
+
         //  remove operation on hashset
         keywords.remove("Ganesh");
         System.out.println("The size of hashset data structure is : " + keywords.size());
@@ -27,6 +31,7 @@ public class HashSetOperations {
             System.out.print(s + " ");
         }
         System.out.println();
+        
         //  isEmpty operation
         System.out.println(keywords.isEmpty());
     }
