@@ -1,9 +1,12 @@
+import java.util.HashSet;
+
 public class CountDistinctElement {
     public static void main(String[] args) {
         int[] arr = {10, 20, 10, 20, 30};
         System.out.println(count(arr, arr.length));
+        System.out.println(countEfficient(arr, arr.length));
     }
-    
+
     //  Time Complexity : O(n*n)
     //  Auxiliary Space : O(1)
     public static int count(int[] arr, int n) {
@@ -21,5 +24,15 @@ public class CountDistinctElement {
             }
         }
         return count;
+    }
+
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(n)
+    public static int countEfficient(int[] arr, int count) {
+        HashSet<Integer> keys = new HashSet<>();
+        for (int i: arr) {
+            keys.add(i);
+        }
+        return keys.size();
     }
 }
