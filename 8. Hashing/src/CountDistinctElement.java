@@ -25,6 +25,10 @@ public class CountDistinctElement {
         }
         return count;
     }
+    
+    //  You can solve this problem by sorting the whole array and then comparing it with their adjacent element and increment the count if both the adjacent elements differs.
+    //  Time Complexity : O(nlog(n))
+    //  Auxiliary Space : O(1)
 
     //  Time Complexity : O(n)
     //  Auxiliary Space : O(n)
