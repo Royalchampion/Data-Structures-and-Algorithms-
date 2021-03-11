@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/8. Hashing/src/SubArrayWithGivenSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8. Hashing/src/SubArrayEqualsK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/8. Hashing/PairWithGivenSumInUnsortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/8. Hashing/PairWithGivenSumInUnsortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/8. Hashing/SubArrayWithZeroSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/8. Hashing/SubArrayWithZeroSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/8. Hashing/SubArrayWithGivenSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/8. Hashing/SubArrayWithGivenSum.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,16 +44,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubArrayWithGivenSum">
-    <configuration name="IntersectionOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntersectionOfTwoArrays" />
+  <component name="RunManager" selected="Application.SubArrayEqualsK">
+    <configuration name="PairWithGivenSumInUnsortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PairWithGivenSumInUnsortedArray" />
       <module name="8. Hashing" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairWithGivenSumInUnsortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PairWithGivenSumInUnsortedArray" />
+    <configuration name="SubArrayEqualsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SubArrayEqualsK" />
       <module name="8. Hashing" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubArrayEqualsK" />
         <item itemvalue="Application.SubArrayWithGivenSum" />
         <item itemvalue="Application.SubArrayWithZeroSum" />
         <item itemvalue="Application.PairWithGivenSumInUnsortedArray" />
         <item itemvalue="Application.UnionOfTwoArrays" />
-        <item itemvalue="Application.IntersectionOfTwoArrays" />
       </list>
     </recent_temporary>
   </component>
