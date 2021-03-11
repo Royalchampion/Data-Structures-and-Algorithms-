@@ -1,3 +1,5 @@
+import java.util.HashSet;
+
 public class SubArrayWithZeroSum {
     public static void main(String[] args) {
         int arr[] = new int[]{4, -3, 2, 1};
@@ -15,6 +17,24 @@ public class SubArrayWithZeroSum {
                     return true;
                 }
             }
+        }
+        return false;
+    }
+
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(n)
+    public static boolean compareEfficient(int arr[], int n) {
+        HashSet<Integer> set = new HashSet<>();
+        int prefixSum = 0;
+        for (int i : arr) {
+            prefixSum += i;
+            if (set.contains(prefixSum)) {
+                return true;
+            }
+            if (prefixSum==0) {
+                return true;
+            }
+            set.add(prefixSum);
         }
         return false;
     }
