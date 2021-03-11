@@ -6,6 +6,8 @@ public class PairWithGivenSumInUnsortedArray {
         System.out.println(containPair(arr, arr.length, 17));
     }
 
+    //  Time Complexity : O(n)
+    //  Auxiliary Sum : O(n)
     public static boolean containPair(int arr[], int n, int sum) {
         HashSet<Integer> set = new HashSet<>();
         for (int i : arr) {
