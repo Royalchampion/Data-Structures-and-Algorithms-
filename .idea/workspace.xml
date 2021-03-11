@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/8. Hashing/src/UnionOfTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8. Hashing/src/PairWithGivenSumInUnsortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/8. Hashing/IntersectionOfTwoArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/8. Hashing/IntersectionOfTwoArrays.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UnionOfTwoArrays">
+  <component name="RunManager" selected="Application.PairWithGivenSumInUnsortedArray">
     <configuration name="CountDistinctElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountDistinctElement" />
       <module name="8. Hashing" />
@@ -59,15 +58,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashMapOperations" />
+    <configuration name="IntersectionOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntersectionOfTwoArrays" />
       <module name="8. Hashing" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IntersectionOfTwoArrays" />
+    <configuration name="PairWithGivenSumInUnsortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PairWithGivenSumInUnsortedArray" />
       <module name="8. Hashing" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PairWithGivenSumInUnsortedArray" />
         <item itemvalue="Application.UnionOfTwoArrays" />
         <item itemvalue="Application.IntersectionOfTwoArrays" />
         <item itemvalue="Application.FrequenciesOfArrayElements" />
         <item itemvalue="Application.CountDistinctElement" />
-        <item itemvalue="Application.HashMapOperations" />
       </list>
     </recent_temporary>
   </component>
