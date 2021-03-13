@@ -1,9 +1,11 @@
 import java.util.Arrays;
+import java.util.HashSet;
 
 public class LongestConsequenceSum {
     public static void main(String[] args) {
         int[] arr = {1, 9, 3, 4, 2, 10, 13};
-        System.out.println(findLongest(arr, arr.length));
+//        System.out.println(findLongest(arr, arr.length));
+        System.out.println(findLongestEfficient(arr, arr.length));
     }
 
     //  Time Complexity : O(nlogn)
@@ -28,6 +30,27 @@ public class LongestConsequenceSum {
             }
         }
         result = Math.max(result, count);
+        return result;
+    }
+
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(n)
+    public static int findLongestEfficient(int arr[], int n) {
+        int count = 0;
+        int result = 0;
+        HashSet<Integer> set = new HashSet<>();
+        for (int i=0; i<n; i++) {
+            set.add(arr[i]);
+        }
+        for (int i=0; i<n; i++) {
+            if (!set.contains(arr[i]-1)) {
+                count = 1;
+                while (set.contains(count+arr[i])) {
+                    count++;
+                }
+                result = Math.max(result, count);
+            }
+        }
         return result;
     }
 }
