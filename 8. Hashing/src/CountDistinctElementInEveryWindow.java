@@ -16,12 +16,12 @@ public class CountDistinctElementInEveryWindow {
         }
 
         //  Print the hashmap size.
-        System.out.print(map.size());
+        System.out.print(map.size() + " ");
 
         //  Traverse the array from k to n.
         for (int i=k; i<n; i++) {
             //  Decrease the frequency of array elements.
-            map.put(arr[i-k], map.get(arr[i-k]-1));
+            map.put(arr[i-k], map.get(arr[i-k])-1);
 
             //  If the frequency gets reduced to zero then remove it from the hashmap.
             if (map.get(arr[i-k])==0) {
