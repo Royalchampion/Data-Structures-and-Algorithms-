@@ -9,12 +9,18 @@ public class LongestConsequenceSum {
     //  Time Complexity : O(nlogn)
     //  Auxiliary Space : O(1)
     public static int findLongest(int[] arr, int n) {
+        if (arr.length==0) {
+            return 0;
+        }
         int count = 1;
         int result = 0;
         Arrays.sort(arr);
         for (int i=1; i<arr.length; i++) {
             if (arr[i] == arr[i-1]+1) {
                 count++;
+            }
+            else if(arr[i]==arr[i-1]) {
+                continue;
             }
             else {
                 result = Math.max(result, count);
