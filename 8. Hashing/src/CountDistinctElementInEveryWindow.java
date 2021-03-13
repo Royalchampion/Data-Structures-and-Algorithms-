@@ -3,12 +3,32 @@ import java.util.HashMap;
 public class CountDistinctElementInEveryWindow {
     public static void main(String[] args) {
         int[] arr = {10, 20, 10, 10, 30, 40};
-        printDistinct(arr, arr.length, 4);
+        printDistinctEfficient(arr, arr.length, 4);
+        printDistinctNaive(arr, arr.length, 4);
+    }
+
+    public static void printDistinctNaive(int[] arr, int n, int k) {
+        for (int i=0; i<=n-k; i++) {
+            int count = 0;
+            for (int j=0; j<k; j++) {
+                boolean flag = true;
+                for (int l=0; l<j; l++) {
+                    if (arr[i+j]==arr[l+i]) {
+                        flag = false;
+                        break;
+                    }
+                }
+                if (flag) {
+                    count++;
+                }
+            }
+            System.out.print(count + " ");
+        }
     }
 
     //  Time Complexity : O(n)
     //  Auxiliary Space : O(n)
-    public static void printDistinct(int[] arr, int n, int k) {
+    public static void printDistinctEfficient(int[] arr, int n, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
         //  Insert the array elements till k to the hashmap.
         for (int i=0; i<k; i++) {
