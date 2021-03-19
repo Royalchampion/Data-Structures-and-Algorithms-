@@ -7,7 +7,7 @@ public class PairWithGivenSumInUnsortedArray {
     }
 
     //  Time Complexity : O(n)
-    //  Auxiliary Sum : O(n)
+    //  Auxiliary Space : O(n)
     public static boolean containPair(int arr[], int n, int sum) {
         HashSet<Integer> set = new HashSet<>();
         for (int i : arr) {
