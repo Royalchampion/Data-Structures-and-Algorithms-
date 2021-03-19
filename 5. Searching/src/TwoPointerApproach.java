@@ -6,6 +6,7 @@ public class TwoPointerApproach {
 
 //    Time Complexity : O(n)
 //    Auxiliary Space : O(1)
+//    Always remember that you're supposed to use two pointer approach only if the array is sorted. Otherwise, you've to use hashing(If array is unsorted). 
     public static boolean twoPointerApproachEfficient(int arr[], int number) {
         int left = 0;
         int right = arr.length-1;
