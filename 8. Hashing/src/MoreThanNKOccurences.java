@@ -7,6 +7,8 @@ public class MoreThanNKOccurences {
         printCount(arr, arr.length, 2);
     }
 
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(n)
     public static void printCount(int[] arr, int n, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i=0; i<n; i++) {
