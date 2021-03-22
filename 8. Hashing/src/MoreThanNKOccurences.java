@@ -15,6 +15,7 @@ public class MoreThanNKOccurences {
             map.put(arr[i], map.getOrDefault(arr[i], 0)+1);
         }
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + " " + entry.getValue());
             if (entry.getValue()>(n/k)) {
                 System.out.print(entry.getKey() + " ");
             }
