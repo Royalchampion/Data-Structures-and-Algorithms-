@@ -40,12 +40,26 @@ public class StringsInJava {
             System.out.println("False");
         }
 
+        //  Checks whether one string equals to another string or not!
         String str5 = "geeksforgeeks";
         if (str4.equals(str5)) {
             System.out.println("True");
         }
         else {
             System.out.println("False");
+        }
+
+        String company1 = "Geeksforgeeks";
+        String company2 = "AlgoExpert";
+        int result = company1.compareTo(company2);
+        if (result==0) {
+            System.out.println("Same");
+        }
+        else if (result > 0) {
+            System.out.println("company 1 is greater!");
+        }
+        else {
+            System.out.println("company 1 is smaller!");
         }
     }
 }
