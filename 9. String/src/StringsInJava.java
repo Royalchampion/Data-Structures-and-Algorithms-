@@ -21,6 +21,7 @@ public class StringsInJava {
         else {
             System.out.println("No");
         }
+
         //  New memory is allocated for str3.
         String str3 = new String("geeks");
         if (str1==str3) {
@@ -28,6 +29,15 @@ public class StringsInJava {
         }
         else {
             System.out.println("No");
+        }
+
+        //  Checks whether the one string contains another or not.
+        String str4 = "geeksforgeeks";
+        if (str4.contains(str1)) {
+            System.out.println("True");
+        }
+        else {
+            System.out.println("False");
         }
     }
 }
