@@ -39,5 +39,13 @@ public class StringsInJava {
         else {
             System.out.println("False");
         }
+
+        String str5 = "geeksforgeeks";
+        if (str4.equals(str5)) {
+            System.out.println("True");
+        }
+        else {
+            System.out.println("False");
+        }
     }
 }
