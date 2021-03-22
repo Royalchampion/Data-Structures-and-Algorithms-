@@ -49,6 +49,7 @@ public class StringsInJava {
             System.out.println("False");
         }
 
+        //  Compares one string to another and return the result in the form of integer.
         String company1 = "Geeksforgeeks";
         String company2 = "AlgoExpert";
         int result = company1.compareTo(company2);
@@ -61,5 +62,8 @@ public class StringsInJava {
         else {
             System.out.println("company 1 is smaller!");
         }
+
+        //  This method returns the index if a string is found in another otherwise it returns -1.
+        System.out.println(str4.indexOf(str1));
     }
 }
