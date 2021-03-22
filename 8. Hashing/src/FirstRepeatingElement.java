@@ -5,7 +5,7 @@ public class FirstRepeatingElement {
     //  -ating element.
     //  Time Complexity : O(n)
     //  Auxiliary Space : O(n)
-    public static int firstRepeatedElementNaive(int[] arr, int n) {
+    public static int firstRepeatedElementEfficient(int[] arr, int n) {
         int min = -1;
         HashSet<Integer> set = new HashSet<>();
         for (int i=arr.length-1; i>=0; i--) {
