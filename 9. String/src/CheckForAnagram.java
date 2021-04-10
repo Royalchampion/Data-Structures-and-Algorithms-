@@ -10,6 +10,7 @@ public class CheckForAnagram {
         if (str1.length()!=str2.length()) {
             return false;
         }
+        //  Conversion of string into character array.
         char a[] = str1.toCharArray();
         Arrays.sort(a);
         str1 = new String(a);
