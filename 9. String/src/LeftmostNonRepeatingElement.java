@@ -1,6 +1,7 @@
 public class LeftmostNonRepeatingElement {
     public static void main(String[] args) {
         System.out.println(find("GeeksForGeeks"));
+        System.out.println(findGood("GeeksForGeeks"));
     }
 
     //  Time Complexity : O(n*n)
@@ -15,6 +16,23 @@ public class LeftmostNonRepeatingElement {
                 }
             }
             if (flag) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(1)
+    //  Two traversal of string
+    static final int CHAR = 256;
+    public static int findGood(String str) {
+        int count[] = new int[CHAR];
+        for (int i=0; i<str.length(); i++) {
+            count[str.charAt(i)]++;
+        }
+        for (int i=0; i<str.charAt(i); i++) {
+            if (count[str.charAt(i)]==1) {
                 return i;
             }
         }
