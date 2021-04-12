@@ -20,6 +20,7 @@ public class LeftmostRepeatingCharacter {
 
     //  Time Complexity : O(n)
     //  Auxiliary Space : O(1)
+    //  Two traversal of array.
     static final int CHAR = 256;
     public static int findLeftmostRepeatingCharacterGood(String str) {
         int[] count = new int[CHAR];
@@ -36,6 +37,7 @@ public class LeftmostRepeatingCharacter {
 
     //  Time Complexity : O(n)
     //  Auxiliary Space : O(1)
+    //  One traversal of array.
     public static int findLeftmostRepeatingCharacterEfficient(String str) {
         int res = -1;
         boolean[] visited = new boolean[CHAR];
