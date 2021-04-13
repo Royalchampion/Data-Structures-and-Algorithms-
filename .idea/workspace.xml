@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/9. String/src/LexicographicRankOfAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9. String/src/LongestSubstringWithDistinctCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/9. String/AnagramSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/9. String/AnagramSearch.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LexicographicRankOfAString">
+  <component name="RunManager" selected="Application.LongestSubstringWithDistinctCharacters">
     <configuration name="AnagramSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnagramSearch" />
       <module name="9. String" />
@@ -59,15 +58,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftmostNonRepeatingElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeftmostNonRepeatingElement" />
+    <configuration name="LexicographicRankOfAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LexicographicRankOfAString" />
       <module name="9. String" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LexicographicRankOfAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LexicographicRankOfAString" />
+    <configuration name="LongestSubstringWithDistinctCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestSubstringWithDistinctCharacters" />
       <module name="9. String" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstringWithDistinctCharacters" />
         <item itemvalue="Application.LexicographicRankOfAString" />
         <item itemvalue="Application.AnagramSearch" />
         <item itemvalue="Application.CheckIfStringsAreRotationsOfEachother" />
         <item itemvalue="Application.ReverseWordsInAGivenString" />
-        <item itemvalue="Application.LeftmostNonRepeatingElement" />
       </list>
     </recent_temporary>
   </component>
