@@ -1,6 +1,27 @@
 public class LongestSubstringWithDistinctCharacters {
     public static void main(String[] args) {
         System.out.println(longestDistinct("abca"));
+        System.out.println(longestDistinctGood("bbcsdd"));
+    }
+
+    //  Time Complexity : O(n*n)
+    //  Auxiliary Space : O(1)
+    public static int longestDistinctGood(String str) {
+        int n = str.length();
+        int res = 0;
+        for (int i=0; i<n; i++) {
+            boolean[] count = new boolean[256];
+            for (int j=i; j<n; j++) {
+                if (count[str.charAt(j)]) {
+                    break;
+                }
+                else {
+                    res = Math.max(res, j-i+1);
+                    count[str.charAt(j)] = true;
+                }
+            }
+        }
+        return res;
     }
 
     //  Time Complexity : O(n*n*n)
