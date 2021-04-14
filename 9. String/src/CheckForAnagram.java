@@ -23,6 +23,7 @@ public class CheckForAnagram {
     }
 
     //  Time Complexity : O(n);
+    //  Auxiliary Space : O(1)
     static int character = 256;
     public static boolean isAnagramEfficient(String str1, String str2) {
         if (str1.length()!=str2.length()) {
