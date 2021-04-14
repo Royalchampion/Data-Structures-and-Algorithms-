@@ -1,7 +1,27 @@
+import java.util.Arrays;
+
 public class LongestSubstringWithDistinctCharacters {
     public static void main(String[] args) {
         System.out.println(longestDistinct("abca"));
-        System.out.println(longestDistinctGood("bbcsdd"));
+        System.out.println(longestDistinctGood("bbcsbd"));
+        System.out.println(longestDistinctEfficient("abca"));
+    }
+
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(1)
+    public static int CHAR = 256;
+    public static int longestDistinctEfficient(String str) {
+        int n = str.length();
+        int res = 0;
+        int[] count = new int[CHAR];
+        Arrays.fill(count, -1);
+        int i = 0;
+        for (int j = 0; j<n; j++) {
+            i = Math.max(i, count[str.charAt(j)]+1);
+            res = Math.max(res, j-i+1);
+            count[str.charAt(j)] = j;
+        }
+        return res;
     }
 
     //  Time Complexity : O(n*n)
