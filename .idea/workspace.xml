@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/9. String/src/BinaryString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9. String/src/CheckForAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/9. String/src/CheckForAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9. String/src/LeftmostRepeatingCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/9. String/src/LeftmostRepeatingCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/9. String/CheckForAnagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/9. String/CheckForAnagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/9. String/LeftmostRepeatingCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/9. String/LeftmostRepeatingCharacter.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestSubstringWithDistinctCharacters">
+  <component name="RunManager" selected="Application.BinaryString">
     <configuration name="AnagramSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnagramSearch" />
       <module name="9. String" />
@@ -51,8 +54,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckIfStringsAreRotationsOfEachother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CheckIfStringsAreRotationsOfEachother" />
+    <configuration name="BinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryString" />
+      <module name="9. String" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeftmostRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeftmostRepeatingCharacter" />
       <module name="9. String" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,20 +82,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWordsInAGivenString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseWordsInAGivenString" />
-      <module name="9. String" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryString" />
+        <item itemvalue="Application.LeftmostRepeatingCharacter" />
         <item itemvalue="Application.LongestSubstringWithDistinctCharacters" />
         <item itemvalue="Application.LexicographicRankOfAString" />
         <item itemvalue="Application.AnagramSearch" />
-        <item itemvalue="Application.CheckIfStringsAreRotationsOfEachother" />
-        <item itemvalue="Application.ReverseWordsInAGivenString" />
       </list>
     </recent_temporary>
   </component>

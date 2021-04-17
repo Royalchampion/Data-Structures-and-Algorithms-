@@ -1,7 +1,7 @@
 public class LeftmostRepeatingCharacter {
     public static void main(String[] args) {
 //        System.out.println(findLeftmostRepeatingCharacter("cabbad"));
-//        System.out.println(findLeftmostRepeatingCharacterGood("geeksforgeeks"));
+        System.out.println(findLeftmostRepeatingCharacterGood("geeksforgeeks"));
         System.out.println(findLeftmostRepeatingCharacterEfficient("geeksforgeeks"));
     }
 
