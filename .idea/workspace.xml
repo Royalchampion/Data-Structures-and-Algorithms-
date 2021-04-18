@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/9. String/src/CheckIfAStringIsRotatedByTwoPlaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9. String/src/KeypadTyping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/9. String/CheckIfAStringIsRotatedByTwoPlaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/9. String/CheckIfAStringIsRotatedByTwoPlaces.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckIfAStringIsRotatedByTwoPlaces">
+  <component name="RunManager" selected="Application.KeypadTyping">
     <configuration name="BinaryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryString" />
       <module name="9. String" />
@@ -58,15 +59,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftmostRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeftmostRepeatingCharacter" />
+    <configuration name="KeypadTyping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KeypadTyping" />
       <module name="9. String" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LexicographicRankOfAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LexicographicRankOfAString" />
+    <configuration name="LeftmostRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeftmostRepeatingCharacter" />
       <module name="9. String" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KeypadTyping" />
         <item itemvalue="Application.CheckIfAStringIsRotatedByTwoPlaces" />
         <item itemvalue="Application.BinaryString" />
         <item itemvalue="Application.LeftmostRepeatingCharacter" />
         <item itemvalue="Application.LongestSubstringWithDistinctCharacters" />
-        <item itemvalue="Application.LexicographicRankOfAString" />
       </list>
     </recent_temporary>
   </component>
