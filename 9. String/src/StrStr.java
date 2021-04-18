@@ -1,6 +1,7 @@
 public class StrStr {
     public static void main(String[] args) {
         System.out.println(find("geeksforgeeks", "for"));
+        System.out.println(findEfficient("geeksforgeeks", "for"));
     }
 
     //  Time Complexity : O(m*n)
@@ -20,5 +21,24 @@ public class StrStr {
             }
         }
         return -1;
+    }
+
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(1)
+    public static int findEfficient(String str1, String str2) {
+        int pointer = 0;
+        int i;
+        for (i=0; i<str1.length(); i++) {
+            if (pointer==str2.length()) {
+                break;
+            }
+            if (str1.charAt(i)==str2.charAt(pointer)) {
+                pointer++;
+            }
+            else {
+                pointer = 0;
+            }
+        }
+        return pointer < str2.length() ? -1 : i-pointer;
     }
 }
