@@ -15,9 +15,11 @@ public class PrimeNumber {
             }
         }
         return true;
-
-//        Most efficient method
-        /*if (number == 1) {
+    }
+    
+    //        Most efficient method
+    public static boolean isPrimeEfficient(int number) {
+        if (number == 1) {
             return false;
         }
 
@@ -34,6 +36,6 @@ public class PrimeNumber {
                 return false;
             }
         }
-        return true;*/
+        return true;
     }
 }
