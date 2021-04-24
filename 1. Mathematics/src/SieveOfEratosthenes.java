@@ -7,6 +7,7 @@ public class SieveOfEratosthenes {
         sieve(20);
     }
 
+    //  Time Complexity : O(n*log(log(n))) 
     public static void sieve(int number) {
         boolean isPrime[] = new boolean[number+1];
         Arrays.fill(isPrime, true);
