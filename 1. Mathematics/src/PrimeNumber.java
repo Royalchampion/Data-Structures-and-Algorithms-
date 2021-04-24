@@ -4,6 +4,7 @@ public class PrimeNumber {
         System.out.println(isPrime(1031));
     }
 
+    //  Time Complexity : O(Math.sqrt(n))
     public static boolean isPrime(int number) {
         if (number == 1) {
             return false;
@@ -17,7 +18,8 @@ public class PrimeNumber {
         return true;
     }
     
-    //        Most efficient method
+    //  Most efficient method
+    //  Time Complexity : O(Math.sqrt(n))
     public static boolean isPrimeEfficient(int number) {
         if (number == 1) {
             return false;
