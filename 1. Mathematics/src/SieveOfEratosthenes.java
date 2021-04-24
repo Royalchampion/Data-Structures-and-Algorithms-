@@ -25,4 +25,14 @@ public class SieveOfEratosthenes {
             }
         }
     }
+    
+    //  Here, we do use traditional way of writing isPrime() method.(Refer prime number program in mathematic repository.)
+    //  Time Complexity : O(n * Math.sqrt(n))
+    public static void print(int number) {
+        for(int i=2; i<n; i++) {
+            if(isPrime(i)) {
+                System.out.println(i);
+            }
+        }
+    }
 }
