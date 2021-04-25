@@ -3,6 +3,8 @@ public class PowerSets {
         printPowerSet("bc");
     }
 
+    //  Time Complexity : O(n*2^n)
+    //  Auxiliary Space : O(1)
     public static void printPowerSet(String str) {
         int stringLength = str.length();
         int powerSet = (int)Math.pow(2, stringLength);
