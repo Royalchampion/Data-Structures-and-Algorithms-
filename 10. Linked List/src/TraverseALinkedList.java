@@ -14,14 +14,27 @@ public class TraverseALinkedList {
         head.next = new NewNode(20);
         head.next.next = new NewNode(30);
         head.next.next.next = new NewNode(40);
-        print(head);
+        printIterative(head);
+        printRecursive(head);
     }
 
-    public static void print(NewNode head) {
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(1)
+    public static void printIterative(NewNode head) {
         NewNode curr = head;
         while (curr!=null) {
             System.out.print(curr.data + " ");
             curr = curr.next;
         }
+    }
+
+    //  Auxiliary Space : O(n)
+    //  Time Complexity : O(n)
+    public static void printRecursive(NewNode head) {
+        if (head==null) {
+            return;
+        }
+        System.out.print(head.data + " ");
+        printIterative(head.next);
     }
 }
