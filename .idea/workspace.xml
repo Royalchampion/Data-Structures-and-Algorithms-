@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/10. Linked List/src/InsertAtTheBeginningOfLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10. Linked List/src/TraverseALinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/10. Linked List/src/TraverseALinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/10. Linked List/TraverseALinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/10. Linked List/TraverseALinkedList.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,10 +43,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TraverseALinkedList">
-    <configuration name="MinimumIndexedCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MinimumIndexedCharacter" />
-      <module name="9. String" />
+  <component name="RunManager" selected="Application.InsertAtTheBeginningOfLinkedList">
+    <configuration name="InsertAtTheBeginningOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InsertAtTheBeginningOfLinkedList" />
+      <module name="10. Linked List" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertAtTheBeginningOfLinkedList" />
         <item itemvalue="Application.TraverseALinkedList" />
         <item itemvalue="Application.Node" />
         <item itemvalue="Application.TwoOddNumberOccuring" />
         <item itemvalue="Application.StrStr" />
-        <item itemvalue="Application.MinimumIndexedCharacter" />
       </list>
     </recent_temporary>
   </component>
