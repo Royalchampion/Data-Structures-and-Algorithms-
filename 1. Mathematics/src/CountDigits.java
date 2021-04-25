@@ -4,6 +4,8 @@ public class CountDigits {
         System.out.println(count(192810));
     }
 
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(1)
     public static long count(long number) {
         long count=0;
         while (number!=0) {
