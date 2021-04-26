@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10. Linked List/src/InsertAtAGivenPositionInALinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. Linked List/src/SearchInALinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/10. Linked List/DeleteLastOfSinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/10. Linked List/DeleteLastOfSinglyLinkedList.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertAtAGivenPositionInALinkedList">
+  <component name="RunManager" selected="Application.SearchInALinkedList">
     <configuration name="DeleteFirstElementOfALinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DeleteFirstElementOfALinkedList" />
       <module name="10. Linked List" />
@@ -66,13 +65,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertAtTheBeginningOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InsertAtTheBeginningOfLinkedList" />
-      <module name="10. Linked List" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InsertAtTheEndOfSinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InsertAtTheEndOfSinglyLinkedList" />
       <module name="10. Linked List" />
@@ -80,13 +72,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchInALinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SearchInALinkedList" />
+      <module name="10. Linked List" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInALinkedList" />
         <item itemvalue="Application.InsertAtAGivenPositionInALinkedList" />
         <item itemvalue="Application.DeleteLastOfSinglyLinkedList" />
         <item itemvalue="Application.DeleteFirstElementOfALinkedList" />
         <item itemvalue="Application.InsertAtTheEndOfSinglyLinkedList" />
-        <item itemvalue="Application.InsertAtTheBeginningOfLinkedList" />
       </list>
     </recent_temporary>
   </component>
