@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10. Linked List/src/InsertAtTheEndOfTheLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. Linked List/src/ReverseTheLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,16 +43,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertAtTheEndOfTheLinkedList">
+  <component name="RunManager" selected="Application.ReverseTheLinkedList">
     <configuration name="DoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DoublyLinkedList" />
-      <module name="10. Linked List" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertAtAGivenPositionInALinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InsertAtAGivenPositionInALinkedList" />
       <module name="10. Linked List" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,6 +65,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseTheLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseTheLinkedList" />
+      <module name="10. Linked List" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchInALinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SearchInALinkedList" />
       <module name="10. Linked List" />
@@ -81,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseTheLinkedList" />
         <item itemvalue="Application.InsertAtTheEndOfTheLinkedList" />
         <item itemvalue="Application.InsertAtTheBeginningOfTheLinkedList" />
         <item itemvalue="Application.DoublyLinkedList" />
         <item itemvalue="Application.SearchInALinkedList" />
-        <item itemvalue="Application.InsertAtAGivenPositionInALinkedList" />
       </list>
     </recent_temporary>
   </component>
