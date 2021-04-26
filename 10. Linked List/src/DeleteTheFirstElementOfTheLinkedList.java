@@ -24,6 +24,8 @@ public class DeleteTheFirstElementOfTheLinkedList {
         print(head);
     }
 
+    //  Time Complexity : O(1)
+    //  Auxiliary Space : O(1)
     public static Node10 deleteFirst(Node10 head) {
         if (head==null) {
             return null;
