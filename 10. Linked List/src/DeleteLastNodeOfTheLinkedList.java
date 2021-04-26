@@ -24,7 +24,7 @@ public class DeleteLastNodeOfTheLinkedList {
         print(head);
     }
 
-    //  Time Complexity : O(1)
+    //  Time Complexity : O(n)
     //  Auxiliary Space : O(1)
     public static Node10 deleteLast(Node10 head) {
         if (head==null) {
