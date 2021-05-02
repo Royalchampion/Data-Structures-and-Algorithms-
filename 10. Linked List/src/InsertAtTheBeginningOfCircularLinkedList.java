@@ -22,7 +22,7 @@ public class InsertAtTheBeginningOfCircularLinkedList {
         }
         else {
             Node15 curr = head;
-            while(curr.next!=null) {
+            while(curr.next!=head) {
                 curr = curr.next;
             }
             curr.next = temp;
