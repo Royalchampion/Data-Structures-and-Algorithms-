@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10. Linked List/src/CircularLinkedListTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. Linked List/src/InsertAtTheBeginningOfCircularLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/10. Linked List/DeleteTheFirstElementOfTheLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/10. Linked List/DeleteTheFirstElementOfTheLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/10. Linked List/InsertAtTheBeginningOfTheLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/10. Linked List/InsertAtTheBeginningOfTheLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/10. Linked List/Node10.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/10. Linked List/Node10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/10. Linked List/Node11.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/10. Linked List/Node11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/10. Linked List/Node8.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/10. Linked List/Node8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/10. Linked List/ReverseTheLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/10. Linked List/ReverseTheLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Linked List/src/CircularLinkedListTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/10. Linked List/src/CircularLinkedListTraversal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

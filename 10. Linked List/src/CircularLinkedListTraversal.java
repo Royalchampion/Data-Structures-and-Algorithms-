@@ -16,7 +16,7 @@ public class CircularLinkedListTraversal {
         head.next.next.next = head;
         printLL(head);
     }
-    
+
     public static void printLL(Node14 head) {
         if (head==null) {
             return;
