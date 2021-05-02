@@ -12,9 +12,9 @@ class Node11 {
 
 public class DeleteTheFirstElementOfTheLinkedList {
     public static void main(String[] args) {
-        Node10 head = new Node10(10);
-        Node10 temp1 = new Node10(20);
-        Node10 temp2 = new Node10(30);
+        Node11 head = new Node11(10);
+        Node11 temp1 = new Node11(20);
+        Node11 temp2 = new Node11(30);
         head.next = temp1;
         temp1.prev = head;
         temp1.next = temp2;
@@ -26,7 +26,7 @@ public class DeleteTheFirstElementOfTheLinkedList {
 
     //  Time Complexity : O(1)
     //  Auxiliary Space : O(1)
-    public static Node10 deleteFirst(Node10 head) {
+    public static Node11 deleteFirst(Node11 head) {
         if (head==null) {
             return null;
         }
@@ -40,8 +40,8 @@ public class DeleteTheFirstElementOfTheLinkedList {
         }
     }
 
-    public static void print(Node10 head) {
-        Node10 temp = head;
+    public static void print(Node11 head) {
+        Node11 temp = head;
         while (temp!=null) {
             System.out.print(temp.data + " ");
             temp = temp.next;

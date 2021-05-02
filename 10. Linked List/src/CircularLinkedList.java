@@ -1,7 +1,7 @@
-class Node11 {
+class Node13 {
     int data;
-    Node11 next;
-    Node11(int d){
+    Node13 next;
+    Node13(int d){
         data=d;
         next=null;
     }
@@ -9,10 +9,10 @@ class Node11 {
 
 public class CircularLinkedList {
     public static void main(String args[]) {
-        Node head=new Node(10);
-        head.next=new Node(5);
-        head.next.next=new Node(20);
-        head.next.next.next=new Node(15);
+        Node13 head=new Node13(10);
+        head.next=new Node13(5);
+        head.next.next=new Node13(20);
+        head.next.next.next=new Node13(15);
         head.next.next.next.next=head;
 
     }
