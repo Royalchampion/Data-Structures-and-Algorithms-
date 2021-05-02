@@ -1,3 +1,4 @@
+//  Doubly linked list
 class Node10 {
     int data;
     Node10 next;

@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10. Linked List/src/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/10. Linked List/src/CircularLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10. Linked List/src/DeleteLastNodeOfTheLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/10. Linked List/src/DeleteLastNodeOfTheLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10. Linked List/src/DeleteTheFirstElementOfTheLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/10. Linked List/src/DeleteTheFirstElementOfTheLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Linked List/src/InsertAtTheBeginningOfTheLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/10. Linked List/src/InsertAtTheBeginningOfTheLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10. Linked List/src/ReverseTheLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/10. Linked List/src/ReverseTheLinkedList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
