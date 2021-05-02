@@ -4,6 +4,8 @@ public class FirstMissingNumber {
         System.out.println(findFirstMissingNumber(nums));
     }
 
+    //  Time Complexity:O(n)
+    //  Auxiliary Space:O(1)
     public static int findFirstMissingNumber(int[] nums) {
         int sum = 0;
         int n = nums.length;
