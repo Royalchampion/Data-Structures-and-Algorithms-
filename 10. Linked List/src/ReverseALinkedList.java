@@ -34,6 +34,9 @@ public class ReverseALinkedList {
         return prev;
     }
 
+    //  Recursively
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(n)
     public static Node22 reverseLLRec(Node22 head) {
         if (head==null || head.next==null) {
             return head;
