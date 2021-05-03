@@ -18,6 +18,8 @@ public class InsertInASortedLinkedList {
         print(head);
     }
 
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(1)
     public static Node19 sortedInsert(Node19 head, int x) {
         Node19 temp = new Node19(x);
         if (head==null) {
