@@ -1,0 +1,44 @@
+class Node22 {
+    int data;
+    Node22 next;
+
+    Node22(int x) {
+        data = x;
+        next = null;
+    }
+}
+
+public class ReverseALinkedList {
+    public static void main(String[] args) {
+        Node22 head = new Node22(10);
+        head.next = new Node22(20);
+        head.next.next = new Node22(30);
+        print(head);
+        head = reverseLL(head);
+        System.out.println();
+        print(head);
+    }
+
+    //  Iteratively
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(1)
+    public static Node22 reverseLL(Node22 head) {
+        Node22 prev = null;
+        Node22 curr = head;
+        while (curr!=null) {
+            Node22 next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        return prev;
+    }
+
+    public static void print(Node22 head) {
+        Node22 curr = head;
+        while (curr!=null) {
+            System.out.print(curr.data + " ");
+            curr = curr.next;
+        }
+    }
+}
