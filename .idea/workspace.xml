@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1. Mathematics/src/SmallestPositiveIntegerValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. Linked List/src/InsertInASortedLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/1. Mathematics/NthNaturalNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/1. Mathematics/NthNaturalNumber.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,14 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SmallestPositiveIntegerValue">
-    <configuration name="CircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CircularLinkedList" />
-      <module name="10. Linked List" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.InsertInASortedLinkedList">
     <configuration name="CircularLinkedListTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CircularLinkedListTraversal" />
       <module name="10. Linked List" />
@@ -61,6 +53,13 @@
     </configuration>
     <configuration name="DeleteLastNodeOfTheLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DeleteLastNodeOfTheLinkedList" />
+      <module name="10. Linked List" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertInASortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InsertInASortedLinkedList" />
       <module name="10. Linked List" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertInASortedLinkedList" />
         <item itemvalue="Application.SmallestPositiveIntegerValue" />
         <item itemvalue="Application.NthNaturalNumber" />
         <item itemvalue="Application.CircularLinkedListTraversal" />
         <item itemvalue="Application.DeleteLastNodeOfTheLinkedList" />
-        <item itemvalue="Application.CircularLinkedList" />
       </list>
     </recent_temporary>
   </component>
