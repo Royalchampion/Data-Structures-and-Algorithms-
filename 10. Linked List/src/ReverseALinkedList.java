@@ -14,7 +14,7 @@ public class ReverseALinkedList {
         head.next = new Node22(20);
         head.next.next = new Node22(30);
         print(head);
-        head = reverseLL(head);
+        head = reverseLLRec(head);
         System.out.println();
         print(head);
     }
@@ -32,6 +32,17 @@ public class ReverseALinkedList {
             curr = next;
         }
         return prev;
+    }
+
+    public static Node22 reverseLLRec(Node22 head) {
+        if (head==null || head.next==null) {
+            return head;
+        }
+        Node22 recHead = reverseLLRec(head.next);
+        Node22 recTail = head.next;
+        recTail.next = head;
+        head.next = null;
+        return recHead;
     }
 
     public static void print(Node22 head) {
