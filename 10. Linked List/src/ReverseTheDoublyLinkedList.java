@@ -11,7 +11,7 @@ class Node10 {
     }
 }
 
-public class ReverseTheLinkedList {
+public class ReverseTheDoublyLinkedList {
     public static void main(String[] args) {
         Node10 head = new Node10(10);
         Node10 temp1 = new Node10(20);
