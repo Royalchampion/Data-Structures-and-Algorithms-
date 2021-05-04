@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/10. Linked List/src/DetectAndRemoveTheLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10. Linked List/src/DetectLoopInALinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/10. Linked List/src/DetectLoopInALinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/10. Linked List/DetectLoopInALinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/10. Linked List/DetectLoopInALinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/10. Linked List/ReverseALinkedListInGroupOfSizeK.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/10. Linked List/ReverseALinkedListInGroupOfSizeK.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,16 +45,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DetectLoopInALinkedList">
-    <configuration name="DetectLoopInALinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DetectLoopInALinkedList" />
+  <component name="RunManager" selected="Application.DetectAndRemoveTheLinkedList">
+    <configuration name="DetectAndRemoveTheLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DetectAndRemoveTheLinkedList" />
       <module name="10. Linked List" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NthNodeFromEndOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NthNodeFromEndOfLinkedList" />
+    <configuration name="DetectLoopInALinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DetectLoopInALinkedList" />
       <module name="10. Linked List" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DetectAndRemoveTheLinkedList" />
         <item itemvalue="Application.DetectLoopInALinkedList" />
         <item itemvalue="Application.ReverseALinkedListInGroupOfSizeK" />
         <item itemvalue="Application.RemoveTheDuplicatesFromALinkedList" />
         <item itemvalue="Application.ReverseALinkedList" />
-        <item itemvalue="Application.NthNodeFromEndOfLinkedList" />
       </list>
     </recent_temporary>
   </component>
