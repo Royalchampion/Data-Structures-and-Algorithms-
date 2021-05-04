@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10. Linked List/src/DetectAndRemoveTheLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. Linked List/src/DeleteNodeWithoutHeadPointer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/10. Linked List/DetectLoopInALinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/10. Linked List/DetectLoopInALinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/10. Linked List/ReverseALinkedListInGroupOfSizeK.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/10. Linked List/ReverseALinkedListInGroupOfSizeK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/10. Linked List/DetectAndRemoveTheLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/10. Linked List/DetectAndRemoveTheLinkedList.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DetectAndRemoveTheLinkedList">
+  <component name="RunManager" selected="Application.DeleteNodeWithoutHeadPointer">
+    <configuration name="DeleteNodeWithoutHeadPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DeleteNodeWithoutHeadPointer" />
+      <module name="10. Linked List" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DetectAndRemoveTheLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DetectAndRemoveTheLinkedList" />
       <module name="10. Linked List" />
@@ -67,13 +73,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseALinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseALinkedList" />
-      <module name="10. Linked List" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReverseALinkedListInGroupOfSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReverseALinkedListInGroupOfSizeK" />
       <module name="10. Linked List" />
@@ -83,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteNodeWithoutHeadPointer" />
         <item itemvalue="Application.DetectAndRemoveTheLinkedList" />
         <item itemvalue="Application.DetectLoopInALinkedList" />
         <item itemvalue="Application.ReverseALinkedListInGroupOfSizeK" />
         <item itemvalue="Application.RemoveTheDuplicatesFromALinkedList" />
-        <item itemvalue="Application.ReverseALinkedList" />
       </list>
     </recent_temporary>
   </component>
