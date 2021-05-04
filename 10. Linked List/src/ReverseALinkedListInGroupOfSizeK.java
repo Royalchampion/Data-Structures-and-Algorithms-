@@ -22,6 +22,8 @@ public class ReverseALinkedListInGroupOfSizeK {
         printlist(head);
     }
 
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(1)
     public static Node24 reversek(Node24 head, int k) {
         Node24 curr = head;
         Node24 prevFirst = null;
