@@ -42,6 +42,19 @@ public class DetectLoopInALinkedList {
         return false;
     }
 
+    public static boolean isLoopMod(Node25 head) {
+        Node25 slow = head;
+        Node25 fast = head;
+        while (slow!=null && fast.next!=null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow==fast) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public static void printlist(Node25 head){
         Node25 curr=head;
         while(curr!=null){
