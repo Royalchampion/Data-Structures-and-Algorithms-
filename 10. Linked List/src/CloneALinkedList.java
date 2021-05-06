@@ -15,6 +15,8 @@ public class CloneALinkedList {
 
     }
 
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(1)
     public static Node30 cloneLL(Node30 head) {
         Node30 curr = head;
         Node30 temp = null;
