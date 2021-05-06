@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/10. Linked List/src/CloneALinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/10. Linked List/src/CloneALinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. Linked List/src/IntersectionOfTwoLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/10. Linked List/SwapNodesInLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/10. Linked List/SwapNodesInLinkedList.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SwapNodesInLinkedList">
+  <component name="RunManager" selected="Application.IntersectionOfTwoLinkedList">
     <configuration name="DeleteNodeWithoutHeadPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DeleteNodeWithoutHeadPointer" />
       <module name="10. Linked List" />
@@ -57,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetectLoopInALinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DetectLoopInALinkedList" />
+    <configuration name="IntersectionOfTwoLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntersectionOfTwoLinkedList" />
       <module name="10. Linked List" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntersectionOfTwoLinkedList" />
         <item itemvalue="Application.SwapNodesInLinkedList" />
         <item itemvalue="Application.SegregateEvensAndOdds" />
         <item itemvalue="Application.DeleteNodeWithoutHeadPointer" />
         <item itemvalue="Application.DetectAndRemoveTheLinkedList" />
-        <item itemvalue="Application.DetectLoopInALinkedList" />
       </list>
     </recent_temporary>
   </component>
