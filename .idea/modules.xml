@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1. Mathematics/1. Mathematics.iml" filepath="$PROJECT_DIR$/1. Mathematics/1. Mathematics.iml" />
       <module fileurl="file://$PROJECT_DIR$/10. Linked List/10. Linked List.iml" filepath="$PROJECT_DIR$/10. Linked List/10. Linked List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11. Stack/11. Stack.iml" filepath="$PROJECT_DIR$/11. Stack/11. Stack.iml" />
       <module fileurl="file://$PROJECT_DIR$/2. Bits Manipulation/2. Bits Manipulation.iml" filepath="$PROJECT_DIR$/2. Bits Manipulation/2. Bits Manipulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/3. Recursion/3. Recursion.iml" filepath="$PROJECT_DIR$/3. Recursion/3. Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/4. Array/4. Array.iml" filepath="$PROJECT_DIR$/4. Array/4. Array.iml" />
