@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2. Bits Manipulation/src/GrayCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11. Stack/src/StockSpanProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/2. Bits Manipulation/AddTwoNumbersWithoutAnyArithmeticOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/2. Bits Manipulation/AddTwoNumbersWithoutAnyArithmeticOperator.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GrayCode">
+  <component name="RunManager" selected="Application.StockSpanProblem">
     <configuration name="AddTwoStacksInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddTwoStacksInAnArray" />
       <module name="11. Stack" />
@@ -66,13 +65,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplementationOfStackUsingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImplementationOfStackUsingArray" />
-      <module name="11. Stack" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ImplementationOfStackUsingArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ImplementationOfStackUsingArrayList" />
       <module name="11. Stack" />
@@ -80,13 +72,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StockSpanProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StockSpanProblem" />
+      <module name="11. Stack" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StockSpanProblem" />
         <item itemvalue="Application.GrayCode" />
         <item itemvalue="Application.AddTwoStacksInAnArray" />
         <item itemvalue="Application.BalancedParanthesis" />
         <item itemvalue="Application.ImplementationOfStackUsingArrayList" />
-        <item itemvalue="Application.ImplementationOfStackUsingArray" />
       </list>
     </recent_temporary>
   </component>
