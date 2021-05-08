@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/11. Stack/src/DesignAStackWithGetMin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11. Stack/src/LargestRectangularArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/11. Stack/src/LargestRectangularArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/11. Stack/LargestRectangularArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/11. Stack/LargestRectangularArea.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,10 +44,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LargestRectangularArea">
-    <configuration name="GrayCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GrayCode" />
-      <module name="2. Bits Manipulation" />
+  <component name="RunManager" selected="Application.DesignAStackWithGetMin">
+    <configuration name="DesignAStackWithGetMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignAStackWithGetMin" />
+      <module name="11. Stack" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignAStackWithGetMin" />
         <item itemvalue="Application.LargestRectangularArea" />
         <item itemvalue="Application.NextGreaterElement" />
         <item itemvalue="Application.PreviousGreaterElement" />
         <item itemvalue="Application.StockSpanProblem" />
-        <item itemvalue="Application.GrayCode" />
       </list>
     </recent_temporary>
   </component>
