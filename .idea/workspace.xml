@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/11. Stack/src/NextGreaterElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11. Stack/src/PreviousGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/11. Stack/src/PreviousGreaterElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/11. Stack/PreviousGreaterElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/11. Stack/PreviousGreaterElement.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,16 +43,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PreviousGreaterElement">
+  <component name="RunManager" selected="Application.NextGreaterElement">
     <configuration name="AddTwoStacksInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddTwoStacksInAnArray" />
-      <module name="11. Stack" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BalancedParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BalancedParanthesis" />
       <module name="11. Stack" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -62,6 +54,13 @@
     <configuration name="GrayCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GrayCode" />
       <module name="2. Bits Manipulation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NextGreaterElement" />
+      <module name="11. Stack" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NextGreaterElement" />
         <item itemvalue="Application.PreviousGreaterElement" />
         <item itemvalue="Application.StockSpanProblem" />
         <item itemvalue="Application.GrayCode" />
         <item itemvalue="Application.AddTwoStacksInAnArray" />
-        <item itemvalue="Application.BalancedParanthesis" />
       </list>
     </recent_temporary>
   </component>
