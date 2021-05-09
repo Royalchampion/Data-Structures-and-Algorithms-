@@ -1,3 +1,4 @@
+//  Implementation of Stack using linked list.
 class Node {
     int data;
     Node next;
