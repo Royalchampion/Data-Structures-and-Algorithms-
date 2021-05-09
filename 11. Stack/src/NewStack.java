@@ -20,7 +20,7 @@ public class NewStack {
 
     void push(int x) {
         Node temp = new Node(x);
-        temp.next = temp;
+        temp.next = head;
         head = temp;
         sz++;
     }
