@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/11. Stack/src/NewStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/11. Stack/src/NewStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2. Bits Manipulation/src/MaximumAND.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/2. Bits Manipulation/GrayCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/2. Bits Manipulation/GrayCode.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DesignAStackWithGetMin">
+  <component name="RunManager" selected="Application.MaximumAND">
     <configuration name="DesignAStackWithGetMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignAStackWithGetMin" />
       <module name="11. Stack" />
@@ -53,6 +55,13 @@
     <configuration name="LargestRectangularArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LargestRectangularArea" />
       <module name="11. Stack" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumAND" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaximumAND" />
+      <module name="2. Bits Manipulation" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -71,20 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockSpanProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StockSpanProblem" />
-      <module name="11. Stack" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumAND" />
         <item itemvalue="Application.DesignAStackWithGetMin" />
         <item itemvalue="Application.LargestRectangularArea" />
         <item itemvalue="Application.NextGreaterElement" />
         <item itemvalue="Application.PreviousGreaterElement" />
-        <item itemvalue="Application.StockSpanProblem" />
       </list>
     </recent_temporary>
   </component>
