@@ -3,6 +3,10 @@ import java.util.*;
 // Time Complexity : O((4^n)*n)
 // Auxiliary Space : O((4^n)*n)
 public class PhoneNumberProblem {
+    public static void main(String[] args) {
+        System.out.println(letterCombinations("289"));
+    }
+
     public static Map<Character, String[]> mapCharacterToTheString = new HashMap<Character, String[]>();
 
     static {
@@ -16,7 +20,7 @@ public class PhoneNumberProblem {
         mapCharacterToTheString.put('9', new String[]{"w","x","y", "z"});
     }
 
-    public List<String> letterCombinations(String digits) {
+    public static List<String> letterCombinations(String digits) {
         if(digits.length()==0) {
             return new ArrayList<String>();
         }
@@ -28,7 +32,7 @@ public class PhoneNumberProblem {
         return currentPhoneDigits;
     }
 
-    public void possibleMnemonics(int index, List<String> currentPhoneDigits, String[] phoneDigitsToBeFound, String digits) {
+    public static void possibleMnemonics(int index, List<String> currentPhoneDigits, String[] phoneDigitsToBeFound, String digits) {
         if(index==digits.length()) {
             String mnemonic = String.join("", phoneDigitsToBeFound);
             currentPhoneDigits.add(mnemonic);
