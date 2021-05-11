@@ -25,7 +25,7 @@ public class MajorityElement {
 //     Time Complexity : O(n)
 //     Auxiliary Space : O(1)
 //     This algorithm is popularly known as Boyer Moore Voting alogrithm.
-    public static void majorityElementEfficient(int arr[]) {
+    public static Integer majorityElementEfficient(int[] arr) {
         Integer candidate = null;
         int count = 0;
         
@@ -33,7 +33,7 @@ public class MajorityElement {
             if(count==0) {
                 candidate=arr[i];
             }
-            int count += (candidate==arr[i])? 1:-1;
+            count += (candidate==arr[i])? 1:-1;
         }
         return candidate;
     }
