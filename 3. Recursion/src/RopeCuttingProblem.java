@@ -4,7 +4,6 @@ public class RopeCuttingProblem {
     }
 
     //  Time Complexity : O(3**n)
-    //  Auxiliary Space : O(1)
     public static int maxPieces(int n, int a, int b, int c) {
         if (n==0) {
             return 0;
