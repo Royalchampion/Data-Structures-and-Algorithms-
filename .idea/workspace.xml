@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12. Queue/src/ImplementStackUsingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12. Queue/src/ReverseTheQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/MajorityElementsInAnArray2.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/MajorityElementsInAnArray2.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ImplementStackUsingQueue">
+  <component name="RunManager" selected="Application.ReverseTheQueue">
     <configuration name="ImplementStackUsingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ImplementStackUsingQueue" />
       <module name="12. Queue" />
@@ -73,20 +72,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpecialKeyboards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SpecialKeyboards" />
-      <module name="3. Recursion" />
+    <configuration name="ReverseTheQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseTheQueue" />
+      <module name="12. Queue" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseTheQueue" />
         <item itemvalue="Application.ImplementStackUsingQueue" />
         <item itemvalue="Application.RemoveDuplicatesFromASortedArray" />
         <item itemvalue="Application.MajorityElementsInAnArray2" />
         <item itemvalue="Application.ImplementationOfQueueUsingArray" />
-        <item itemvalue="Application.SpecialKeyboards" />
       </list>
     </recent_temporary>
   </component>
