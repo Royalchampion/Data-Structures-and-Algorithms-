@@ -15,12 +15,30 @@ public class ReverseTheQueue {
         }
     }
 
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(n)
+    //  Recursively
+    public static void reverseQueueRecursively(Queue<Integer> queue) {
+        if (queue.isEmpty()) {
+            return;
+        }
+        int x = queue.peek();
+        queue.remove();
+        reverseQueueRecursively(queue);
+        queue.add(x);
+    }
+
     public static void main(String[] args) {
         Queue<Integer> queue = new LinkedList<>();
         queue.add(10);
         queue.add(20);
         queue.add(30);
         reverseQueue(queue);
+        for (Integer q : queue) {
+            System.out.print(q + " ");
+        }
+        System.out.println();
+        reverseQueueRecursively(queue);
         for (Integer q : queue) {
             System.out.print(q + " ");
         }
