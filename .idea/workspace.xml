@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/12. Queue/src/ImplementStackUsingQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Array/src/MajorityElementsInAnArray2.java" beforeDir="false" afterPath="$PROJECT_DIR$/4. Array/src/MajorityElementsInAnArray2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/4. Array/MajorityElementsInAnArray2.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/MajorityElementsInAnArray2.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,17 +44,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MajorityElementsInAnArray2">
-    <configuration name="ImplementationOfQueueUsingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImplementationOfQueueUsingArray" />
+  <component name="RunManager" selected="Application.ImplementStackUsingQueue">
+    <configuration name="ImplementStackUsingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImplementStackUsingQueue" />
       <module name="12. Queue" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JosephusProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JosephusProblem" />
-      <module name="3. Recursion" />
+    <configuration name="ImplementationOfQueueUsingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImplementationOfQueueUsingArray" />
+      <module name="12. Queue" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -66,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NthRowOfThePascalsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NthRowOfThePascalsTriangle" />
+    <configuration name="RemoveDuplicatesFromASortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveDuplicatesFromASortedArray" />
       <module name="4. Array" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImplementStackUsingQueue" />
+        <item itemvalue="Application.RemoveDuplicatesFromASortedArray" />
         <item itemvalue="Application.MajorityElementsInAnArray2" />
         <item itemvalue="Application.ImplementationOfQueueUsingArray" />
         <item itemvalue="Application.SpecialKeyboards" />
-        <item itemvalue="Application.JosephusProblem" />
-        <item itemvalue="Application.NthRowOfThePascalsTriangle" />
       </list>
     </recent_temporary>
   </component>
