@@ -4,7 +4,7 @@ public class NthNaturalNumber {
         System.out.println(findNthNaturalNumber(9));
     }
 
-    //  Time Complexity : O(n)
+    //  Time Complexity : O(log n (base9))
     //  Auxiliary Space : O(1)
     public static long findNthNaturalNumber(long number) {
         long result = 0;
