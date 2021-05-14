@@ -6,6 +6,8 @@ public class BestTimeToBuyAndSellTheStock {
         System.out.println(maxProfitEfficient(arr));
     }
 
+    //  Time Complexity : O(n*n)
+    //  Auxiliary Space : O(1)
     public static int maxProfitNaive(int[] arr) {
         int n = arr.length;
         int maxProfit = 0;
@@ -17,6 +19,8 @@ public class BestTimeToBuyAndSellTheStock {
         return maxProfit;
     }
 
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(1)
     public static int maxProfitEfficient(int[] prices) {
         if(prices.length==1) {
             return 0;
