@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4. Array/src/RearrangeArrayInAlternatingPositiveAndNegative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. Array/src/ProductArrayResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/4. Array/LeaderIntegersInAnArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/LeaderIntegersInAnArray.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeaderIntegersInAnArray">
+  <component name="RunManager" selected="Application.ProductArrayResult">
     <configuration name="BestTimeToBuyAndSellTheStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BestTimeToBuyAndSellTheStock" />
       <module name="4. Array" />
@@ -59,15 +60,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplementStackUsingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImplementStackUsingQueue" />
-      <module name="12. Queue" />
+    <configuration name="LeaderIntegersInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeaderIntegersInAnArray" />
+      <module name="4. Array" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeaderIntegersInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeaderIntegersInAnArray" />
+    <configuration name="ProductArrayResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProductArrayResult" />
       <module name="4. Array" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProductArrayResult" />
         <item itemvalue="Application.LeaderIntegersInAnArray" />
         <item itemvalue="Application.BestTimeToBuyAndSellTheStock2" />
         <item itemvalue="Application.BestTimeToBuyAndSellTheStock" />
         <item itemvalue="Application.ReverseTheQueue" />
-        <item itemvalue="Application.ImplementStackUsingQueue" />
       </list>
     </recent_temporary>
   </component>
