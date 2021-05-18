@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/4. Array/src/LongestCharacterReplacement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Array/src/ProductArrayResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/4. Array/src/ProductArrayResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/MaxConsecutiveOnes.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/MaxConsecutiveOnes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/4. Array/ProductArrayResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/4. Array/ProductArrayResult.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,16 +44,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProductArrayResult">
-    <configuration name="BestTimeToBuyAndSellTheStock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BestTimeToBuyAndSellTheStock2" />
+  <component name="RunManager" selected="Application.LongestCharacterReplacement">
+    <configuration name="LeaderIntegersInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeaderIntegersInAnArray" />
       <module name="4. Array" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeaderIntegersInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeaderIntegersInAnArray" />
+    <configuration name="LongestCharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestCharacterReplacement" />
       <module name="4. Array" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCharacterReplacement" />
         <item itemvalue="Application.ProductArrayResult" />
         <item itemvalue="Application.MaxConsecutiveOnes" />
         <item itemvalue="Application.MaximumProductSubarray" />
         <item itemvalue="Application.LeaderIntegersInAnArray" />
-        <item itemvalue="Application.BestTimeToBuyAndSellTheStock2" />
       </list>
     </recent_temporary>
   </component>
