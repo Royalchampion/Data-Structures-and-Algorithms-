@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4. Array/src/LongestCharacterReplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. Array/src/MaximumValueOfDifferencePairOfElementsAndTheirIndexes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,14 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestCharacterReplacement">
-    <configuration name="LeaderIntegersInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeaderIntegersInAnArray" />
-      <module name="4. Array" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MaximumValueOfDifferencePairOfElementsAndTheirIndexes">
     <configuration name="LongestCharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LongestCharacterReplacement" />
       <module name="4. Array" />
@@ -73,6 +66,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaximumValueOfDifferencePairOfElementsAndTheirIndexes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaximumValueOfDifferencePairOfElementsAndTheirIndexes" />
+      <module name="4. Array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductArrayResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProductArrayResult" />
       <module name="4. Array" />
@@ -82,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumValueOfDifferencePairOfElementsAndTheirIndexes" />
         <item itemvalue="Application.LongestCharacterReplacement" />
         <item itemvalue="Application.ProductArrayResult" />
         <item itemvalue="Application.MaxConsecutiveOnes" />
         <item itemvalue="Application.MaximumProductSubarray" />
-        <item itemvalue="Application.LeaderIntegersInAnArray" />
       </list>
     </recent_temporary>
   </component>
