@@ -14,6 +14,8 @@ public class LongestCharacterReplacement {
         return maxLength;
     }
 
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(1)
     public static int findLength(String s, int n, int k, char ch) {
         int maxLength = 1;
         int count = 0;
