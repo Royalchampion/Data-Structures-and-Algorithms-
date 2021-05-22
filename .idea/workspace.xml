@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/5. Searching/src/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/5. Searching/src/SearchInsertPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. Searching/src/BinarySearchInForest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/5. Searching/ContainerWithMostWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/5. Searching/ContainerWithMostWater.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +45,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContainerWithMostWater">
+  <component name="RunManager" selected="Application.BinarySearchInForest">
+    <configuration name="BinarySearchInForest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchInForest" />
+      <module name="5. Searching" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ContainerWithMostWater" />
       <module name="5. Searching" />
@@ -65,13 +74,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreeSum" />
-      <module name="4. Array" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThreeSumClosest" />
       <module name="4. Array" />
@@ -81,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchInForest" />
         <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.MyPow" />
         <item itemvalue="Application.Count1sInABinarySortedArray" />
         <item itemvalue="Application.ThreeSumClosest" />
-        <item itemvalue="Application.ThreeSum" />
       </list>
     </recent_temporary>
   </component>
