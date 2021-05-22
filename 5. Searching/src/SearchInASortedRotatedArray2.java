@@ -1,4 +1,5 @@
 public class SearchInASortedRotatedArray2 {
+    //  Array contain duplicate values
     //  Time Complexity : O(log(n))
     //  Auxiliary Space : O(1)
     public boolean search(int[] nums, int target) {

@@ -3,6 +3,7 @@ public class SearchInASortedRotatedArray {
         System.out.println(search(new int[]{10, 20, 30, 40, 60, 5, 8}, 5));
     }
 
+//    Array contain distinct values.
 //    Time Complexity : O(log(n))
 //    Auxiliary Space : O(1)
     public static int search(int arr[], int number) {
