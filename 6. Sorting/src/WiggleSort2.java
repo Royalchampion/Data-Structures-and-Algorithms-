@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class WiggleSort2 {
-    //  Time Complexity : O(n)
+    //  Time Complexity : O(nlogn)
     //  Auxiliary Space : O(n)
     public static void sort(int[] nums) {
         int n = nums.length;
