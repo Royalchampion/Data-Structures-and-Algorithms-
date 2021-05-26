@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/6. Sorting/src/TripletsWithSumWithGivenRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6. Sorting/src/RelativeSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/6. Sorting/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/6. Sorting/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/6. Sorting/IntersectionOfTwoArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/6. Sorting/IntersectionOfTwoArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/6. Sorting/MergeThreeSortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/6. Sorting/MergeThreeSortedArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/6. Sorting/SortArrayByParity2.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/6. Sorting/SortArrayByParity2.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
