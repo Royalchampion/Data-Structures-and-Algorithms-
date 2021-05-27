@@ -30,4 +30,18 @@ public class MaximumDiff {
 
         return maxDiff;
     }
+
+    //  Time Complexity : O(n*n)
+    //  Auxiliary Space : O(1)
+    static int maxIndexDiffNaive(int[] arr, int n) {
+        int result = -1;
+        for (int i=0; i<n; i++) {
+            for (int j=n-1; j>i; j--) {
+                if (arr[j]>arr[i] && (j-i)>result) {
+                    result = j-i;
+                }
+            }
+        }
+        return result;
+    }
 }
