@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+// Wave sort
 public class WiggleSort2 {
     //  Time Complexity : O(nlogn)
     //  Auxiliary Space : O(n)
