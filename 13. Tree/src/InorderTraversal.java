@@ -11,11 +11,10 @@ class Node2 {
 
 public class InorderTraversal {
     public static void main(String[] args) {
-        Node2 root = new Node2(10);
-        root.left = new Node2(20);
-        root.right = new Node2(30);
-        root.right.left = new Node2(25);
-        root.right.right = new Node2(35);
+        Node2 root = new Node2(1);
+        root.left = null;
+        root.right = new Node2(2);
+        root.right.left = new Node2(3);
         inOrder(root);
     }
 
