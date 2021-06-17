@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/13. Tree/src/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13. Tree/src/InorderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TripletsWithSumWithGivenRange">
+  <component name="RunManager" selected="Application.InorderTraversal">
     <configuration name="BinarySearchInForest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearchInForest" />
       <module name="5. Searching" />
@@ -60,9 +59,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Count1sInABinarySortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Count1sInABinarySortedArray" />
-      <module name="5. Searching" />
+    <configuration name="InorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InorderTraversal" />
+      <module name="13. Tree" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InorderTraversal" />
         <item itemvalue="Application.TripletsWithSumWithGivenRange" />
         <item itemvalue="Application.BinarySearchInForest" />
         <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.MyPow" />
-        <item itemvalue="Application.Count1sInABinarySortedArray" />
       </list>
     </recent_temporary>
   </component>
