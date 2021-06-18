@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/13. Tree/src/HeightOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7. Matrix/src/SpiralMatrix2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/7. Matrix/TransposeOfAMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/7. Matrix/TransposeOfAMatrix.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,17 +45,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InorderTraversal">
-    <configuration name="BinarySearchInForest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearchInForest" />
-      <module name="5. Searching" />
+  <component name="RunManager" selected="Application.MultiDimensionalArray">
+    <configuration name="InorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InorderTraversal" />
+      <module name="13. Tree" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InorderTraversal" />
-      <module name="13. Tree" />
+    <configuration name="MultiDimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiDimensionalArray" />
+      <module name="7. Matrix" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiDimensionalArray" />
         <item itemvalue="Application.InorderTraversal" />
         <item itemvalue="Application.PostOrderTraversal" />
         <item itemvalue="Application.PreOrderTraversal" />
         <item itemvalue="Application.TripletsWithSumWithGivenRange" />
-        <item itemvalue="Application.BinarySearchInForest" />
       </list>
     </recent_temporary>
   </component>
