@@ -5,6 +5,8 @@ public class MatrixBoundaryTraversal {
                         {9, 10, 11, 12},
                         {13, 14, 15, 16}};
         printBoundaryElements(arr);
+        System.out.println();
+        printEff(arr);
     }
 
 //    Time Complexity : O(n*n)
@@ -27,6 +29,33 @@ public class MatrixBoundaryTraversal {
                 else {
                     System.out.print("");
                 }
+            }
+        }
+    }
+
+    //  Time Complexity : O(m+n)
+    public static void printEff(int[][] arr) {
+        int row = arr.length;
+        int col = arr[0].length;
+
+        //  Print first row
+        for (int i=0; i<col; i++) {
+            System.out.print(arr[0][i] + " ");
+        }
+
+        for (int i=1; i<row; i++) {
+            System.out.print(arr[i][col-1] + " ");
+        }
+
+        if (row > 1) {
+            for (int i=col-2; i>=0; i--) {
+                System.out.print(arr[row-1][i] + " ");
+            }
+        }
+
+        if (col > 1) {
+            for (int i=row-2; i>=1; i--) {
+                System.out.print(arr[i][0] + " ");
             }
         }
     }
