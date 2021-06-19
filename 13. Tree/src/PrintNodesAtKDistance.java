@@ -19,6 +19,8 @@ public class PrintNodesAtKDistance {
         find(root, 1);
     }
 
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(h)
     public static void find(Node6 root, int k) {
         if (root==null) return;
         if (k==0) {
