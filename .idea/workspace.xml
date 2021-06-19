@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/13. Tree/src/MaximumInBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13. Tree/src/PrintLeftView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/13. Tree/SizeOfABinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/13. Tree/SizeOfABinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/13. Tree/MaximumInBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/13. Tree/MaximumInBinaryTree.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,9 +45,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaximumInBinaryTree">
-    <configuration name="LevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LevelOrderTraversal" />
+  <component name="RunManager" selected="Application.PrintLeftView">
+    <configuration name="InorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InorderTraversal" />
       <module name="13. Tree" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintNodesAtKDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrintNodesAtKDistance" />
+    <configuration name="PrintLeftView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintLeftView" />
       <module name="13. Tree" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintLeftView" />
+        <item itemvalue="Application.InorderTraversal" />
         <item itemvalue="Application.MaximumInBinaryTree" />
         <item itemvalue="Application.SizeOfABinaryTree" />
         <item itemvalue="Application.LevelOrderTraversalLineByLine" />
-        <item itemvalue="Application.LevelOrderTraversal" />
-        <item itemvalue="Application.PrintNodesAtKDistance" />
       </list>
     </recent_temporary>
   </component>
