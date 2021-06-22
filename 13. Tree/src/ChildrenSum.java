@@ -11,11 +11,11 @@ class Node12 {
 
 public class ChildrenSum {
     public static void main(String[] args) {
-        Node11 root = new Node11(10);
-        root.left = new Node11(20);
-        root.right = new Node11(30);
-        root.right.left = new Node11(25);
-        root.right.right = new Node11(35);
+        Node12 root = new Node12(10);
+        root.left = new Node12(20);
+        root.right = new Node12(30);
+        root.right.left = new Node12(25);
+        root.right.right = new Node12(35);
     }
 
     //  Time Complexity : O(n)
