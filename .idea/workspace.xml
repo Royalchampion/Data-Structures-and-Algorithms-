@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/13. Tree/src/MaximumWidthOfBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Tree/src/CheckForBalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/13. Tree/src/CheckForBalancedTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/13. Tree/CheckForBalancedTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/13. Tree/CheckForBalancedTree.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckForBalancedTree">
+  <component name="RunManager" selected="Application.MaximumWidthOfBinaryTree">
     <configuration name="CheckForBalancedTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CheckForBalancedTree" />
       <module name="13. Tree" />
@@ -66,6 +67,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaximumWidthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaximumWidthOfBinaryTree" />
+      <module name="13. Tree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrintLeftView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrintLeftView" />
       <module name="13. Tree" />
@@ -73,20 +81,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SizeOfABinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SizeOfABinaryTree" />
-      <module name="13. Tree" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumWidthOfBinaryTree" />
         <item itemvalue="Application.CheckForBalancedTree" />
         <item itemvalue="Application.PrintLeftView" />
         <item itemvalue="Application.InorderTraversal" />
         <item itemvalue="Application.MaximumInBinaryTree" />
-        <item itemvalue="Application.SizeOfABinaryTree" />
       </list>
     </recent_temporary>
   </component>
