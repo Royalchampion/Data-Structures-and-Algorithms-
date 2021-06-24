@@ -24,7 +24,7 @@ public class ChildrenSum {
         if (root==null) {
             return true;
         }
-        if (root.left==root.right) {
+        if (root.left==null && root.right==null) {
             return true;
         }
         int sum = 0;
