@@ -51,7 +51,7 @@ public class CheckForBalancedTree {
         if(root==null) {
             return true;
         }
-        return ((Math.abs(height(root.left)-height(root.right))<=1) && isBalanced(root.left) &&                 isBalanced(root.right));
+        return ((Math.abs(height(root.left)-height(root.right))<=1) && isBalanced(root.left) && isBalanced(root.right));
     }
 
     public static int height(Node13 root) {
