@@ -1,3 +1,5 @@
+import javax.swing.tree.TreeNode;
+
 class Node15 {
     int key;
     Node15 left;
@@ -38,4 +40,23 @@ public class BinaryTreeToDoublyLinkedList {
         BinaryTreeToDoublyLinkedList(root.right);
         return head;
     }
+
+    //  Binary Tree to Linked List
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(h)
+//    public void flatten(TreeNode root) {
+//        if (root == null) return;
+//        TreeNode left = root.left;
+//        TreeNode right = root.right;
+//        root.left = null;
+//        flatten(left);
+//        flatten(right);
+//        root.right = left;
+//        TreeNode head = root;
+//        while (head.right != null) {
+//            head = head.right;
+//        }
+//        head.right = right;
+//    }
+
 }
