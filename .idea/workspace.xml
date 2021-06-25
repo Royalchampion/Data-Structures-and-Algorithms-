@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/13. Tree/src/LCABinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. Tree/src/DiameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/13. Tree/src/DiameterOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/13. Tree/DiameterOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/13. Tree/DiameterOfBinaryTree.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,14 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiameterOfBinaryTree">
-    <configuration name="CheckForBalancedTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CheckForBalancedTree" />
-      <module name="13. Tree" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LCABinaryTree">
     <configuration name="ConstructBinaryTreeFromInorderAndPreorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConstructBinaryTreeFromInorderAndPreorder" />
       <module name="13. Tree" />
@@ -61,6 +55,13 @@
     </configuration>
     <configuration name="DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DiameterOfBinaryTree" />
+      <module name="13. Tree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LCABinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LCABinaryTree" />
       <module name="13. Tree" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LCABinaryTree" />
         <item itemvalue="Application.DiameterOfBinaryTree" />
         <item itemvalue="Application.ZigZagTraversalOfTree" />
         <item itemvalue="Application.ConstructBinaryTreeFromInorderAndPreorder" />
         <item itemvalue="Application.MaximumWidthOfBinaryTree" />
-        <item itemvalue="Application.CheckForBalancedTree" />
       </list>
     </recent_temporary>
   </component>
