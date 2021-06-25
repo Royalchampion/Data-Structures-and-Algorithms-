@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/13. Tree/src/ZigZagTraversalOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/13. Tree/src/ZigZagTraversalOfTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13. Tree/src/DiameterOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/13. Tree/ZigZagTraversalOfTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/13. Tree/ZigZagTraversalOfTree.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ZigZagTraversalOfTree">
+  <component name="RunManager" selected="Application.DiameterOfBinaryTree">
     <configuration name="CheckForBalancedTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CheckForBalancedTree" />
       <module name="13. Tree" />
@@ -58,15 +60,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumWidthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaximumWidthOfBinaryTree" />
+    <configuration name="DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiameterOfBinaryTree" />
       <module name="13. Tree" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintLeftView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrintLeftView" />
+    <configuration name="MaximumWidthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaximumWidthOfBinaryTree" />
       <module name="13. Tree" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiameterOfBinaryTree" />
         <item itemvalue="Application.ZigZagTraversalOfTree" />
         <item itemvalue="Application.ConstructBinaryTreeFromInorderAndPreorder" />
         <item itemvalue="Application.MaximumWidthOfBinaryTree" />
         <item itemvalue="Application.CheckForBalancedTree" />
-        <item itemvalue="Application.PrintLeftView" />
       </list>
     </recent_temporary>
   </component>
