@@ -23,6 +23,8 @@ public class ZigZagTraversalOfTree {
         traverse(root);
     }
 
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(n)
     public static void traverse(Node17 root) {
         if (root==null) return;
         Stack<Node17> stack1 = new Stack<>();
