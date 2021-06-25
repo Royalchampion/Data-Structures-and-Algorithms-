@@ -21,6 +21,17 @@ public class DiameterOfBinaryTree {
         System.out.println(diameterOfBinaryTree(root));
     }
 
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(h)
+    static int res = 0;
+    public static int heightEff(Node18 root) {
+        if (root==null) return 0;
+        int lh = heightEff(root.left);
+        int rh = heightEff(root.right);
+        res = Math.max(res, 1+lh+rh);
+        return 1+Math.max(lh, rh);
+    }
+
     //  Time Complexity : O(n*n)
     //  Auxiliary Space : O(h)
     public static int diameterOfBinaryTree(Node18 root) {
