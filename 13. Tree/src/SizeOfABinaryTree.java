@@ -1,3 +1,5 @@
+import javax.swing.tree.TreeNode;
+
 class Node9 {
     int key;
     Node9 left;
@@ -28,6 +30,28 @@ public class SizeOfABinaryTree {
         else {
             return (height(root.left)+height(root.right)+1);
         }
+    }
 
+    //  Time Complexity : O(logn*logn)
+    //  Auxiliary Space : O(h)
+    public int countNodes(Node9 root) {
+        int lh = 0;
+        int rh = 0;
+        Node9 curr = root;
+        while(curr!=null) {
+            lh++;
+            countNodes(root.left);
+        }
+        curr = root;
+        while(curr!=null) {
+            rh++;
+            countNodes(root.right);
+        }
+        if(lh==rh) {
+            return ((int) Math.pow(2, lh)-1);
+        }
+        else {
+            return 1+countNodes(root.left)+countNodes(root.right);
+        }
     }
 }
