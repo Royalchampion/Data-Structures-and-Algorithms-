@@ -28,7 +28,7 @@ public class DesignHashSet {
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     //  Time Complexity : O(1)
-    //  Auxiliary Space : O(1)
+    //  Auxiliary Space : O(l)
     /*
     private static final int MAX_VALUE = 1000000;
     private static final int ARRAY_SIZE = 100;
