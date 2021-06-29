@@ -29,7 +29,7 @@ public class SearchOperation {
     //  Recursive
     //  Time Complexity : O(h)
     //  Auxiliary Space : O(h)
-    public static boolean searchIterative(Node root, int x) {
+    public static boolean searchRecursive(Node root, int x) {
         if (root==null) {
             return false;
         }
@@ -37,17 +37,17 @@ public class SearchOperation {
             return true;
         }
         if (root.key>x) {
-            return searchIterative(root.left, x);
+            return searchRecursive(root.left, x);
         }
         else {
-            return searchIterative(root.right, x);
+            return searchRecursive(root.right, x);
         }
     }
 
     //  Iterative
     //  Time Complexity : O(h)
     //  Auxiliary Space : O(1)
-    public static boolean searchRecursive(Node root, int x) {
+    public static boolean searchIterative(Node root, int x) {
         while (root!=null) {
             if (root.key==x) {
                 return true;
