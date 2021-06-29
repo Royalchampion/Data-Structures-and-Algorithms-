@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/N. Binary Search Tree/src/SearchOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/N. Binary Search Tree/src/SearchOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/N. Binary Search Tree/src/InsertOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/N. Binary Search Tree/SearchOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/N. Binary Search Tree/SearchOperation.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,17 +45,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SearchOperation">
-    <configuration name="DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DiameterOfBinaryTree" />
-      <module name="M. Tree" />
+  <component name="RunManager" selected="Application.InsertOperation">
+    <configuration name="DirectTableAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DirectTableAddress" />
+      <module name="H. Hashing" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirectTableAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DirectTableAddress" />
-      <module name="H. Hashing" />
+    <configuration name="InsertOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InsertOperation" />
+      <module name="N. Binary Search Tree" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertOperation" />
         <item itemvalue="Application.SearchOperation" />
         <item itemvalue="Application.DirectTableAddress" />
         <item itemvalue="Application.SerializeAndDeserialize" />
         <item itemvalue="Application.LCABinaryTree" />
-        <item itemvalue="Application.DiameterOfBinaryTree" />
       </list>
     </recent_temporary>
   </component>
