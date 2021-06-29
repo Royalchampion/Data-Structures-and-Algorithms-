@@ -18,7 +18,7 @@ public class SearchOperation {
         root.right.left=new Node(18);
         root.right.left.left=new Node(16);
         root.right.right=new Node(80);
-        if (search(root, 3)) {
+        if (searchIterative(root, 3)) {
             System.out.print("Found!");
         }
         else {
@@ -26,7 +26,10 @@ public class SearchOperation {
         }
     }
 
-    public static boolean search(Node root, int x) {
+    //  Recursive
+    //  Time Complexity : O(h)
+    //  Auxiliary Space : O(h)
+    public static boolean searchIterative(Node root, int x) {
         if (root==null) {
             return false;
         }
@@ -34,10 +37,28 @@ public class SearchOperation {
             return true;
         }
         if (root.key>x) {
-            return search(root.left, x);
+            return searchIterative(root.left, x);
         }
         else {
-            return search(root.right, x);
+            return searchIterative(root.right, x);
         }
+    }
+
+    //  Iterative
+    //  Time Complexity : O(h)
+    //  Auxiliary Space : O(1)
+    public static boolean searchRecursive(Node root, int x) {
+        while (root!=null) {
+            if (root.key==x) {
+                return true;
+            }
+            if (root.key>x) {
+                root = root.left;
+            }
+            else {
+                root = root.right;
+            }
+        }
+        return null;
     }
 }
