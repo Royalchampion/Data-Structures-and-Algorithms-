@@ -20,8 +20,38 @@ public class InsertOperation {
         inorder(root);
     }
 
-    //  Time Complexity : O()
-    //  Auxiliary Space : O()
+    //  Time Complexity : O(h)
+    //  Auxiliary Space : O(1)
+    public static Node2 insertEfficient(Node2 root, int x) {
+        Node2 temp = new Node2(x);
+        Node2 curr = root;
+        Node2 parent = null;
+        while (curr!=null) {
+            parent = curr;
+            if (curr.key<x) {
+                curr = curr.right;
+            }
+            else if (curr.key>x) {
+                curr = curr.left;
+            }
+            else {
+                return root;
+            }
+        }
+        if (parent==null) {
+            return temp;
+        }
+        if (parent.key<x) {
+            parent.right = temp;
+        }
+        else {
+            parent.left = temp;
+        }
+        return root;
+    }
+
+    //  Time Complexity : O(h)
+    //  Auxiliary Space : O(h)
     public static Node2 insertNaive(Node2 root, int x) {
         if (root==null) {
             return new Node2(x);
