@@ -59,6 +59,6 @@ public class SearchOperation {
                 root = root.right;
             }
         }
-        return null;
+        return false;
     }
 }
