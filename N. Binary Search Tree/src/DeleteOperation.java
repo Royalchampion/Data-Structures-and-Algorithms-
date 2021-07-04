@@ -33,10 +33,10 @@ public class DeleteOperation {
             root.left = delete(root.left, x);
         }
         else {
-            if (root.left!=null) {
+            if (root.left==null) {
                 return root.right;
             }
-            else if (root.right!=null) {
+            else if (root.right==null) {
                 return root.left;
             }
             else {
