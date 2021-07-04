@@ -44,5 +44,18 @@ public class TreeSetExample {
         while (iteratorInteger.hasNext()) {
             System.out.print(iteratorInteger.next() + " ");
         }
+
+        //  Methods
+        //  Largest values lower than 5
+        System.out.println(integerSet.lower(5));
+
+        //  Smallest values higher than 5
+        System.out.println(integerSet.higher(5));
+
+        //  Values <=5
+        System.out.println(integerSet.floor(5));
+
+        //  Values >=5
+        System.out.println(integerSet.ceiling(5));
     }
 }
