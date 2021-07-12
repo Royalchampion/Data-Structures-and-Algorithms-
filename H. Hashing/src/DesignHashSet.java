@@ -30,12 +30,21 @@ public class DesignHashSet {
     //  Time Complexity : O(1)
     //  Auxiliary Space : O(l)
     /*
+
+    //  Max input value
     private static final int MAX_VALUE = 1000000;
+
+    //  Max number of buckets
     private static final int ARRAY_SIZE = 100;
+
+    //  List of linked list
     List<List<Integer>> list;
 
     public MyHashSet() {
+        //  Parent list of ARRAY_SIZE buckets.
         list = new ArrayList<>(ARRAY_SIZE);
+
+        //  Initialize them as null
         for (int i=0; i<ARRAY_SIZE; i++) {
             list.add(null);
         }
