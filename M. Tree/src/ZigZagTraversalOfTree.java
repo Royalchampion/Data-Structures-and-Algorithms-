@@ -32,7 +32,7 @@ public class ZigZagTraversalOfTree {
 
         stack1.add(root);
 
-        while (!stack1.isEmpty() || stack2.isEmpty()) {
+        while (!stack1.isEmpty() || !stack2.isEmpty()) {
             while (!stack1.isEmpty()) {
                 Node17 temp = stack1.peek();
                 stack1.pop();
