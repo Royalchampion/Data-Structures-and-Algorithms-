@@ -47,6 +47,7 @@ public class TreeSetExample {
 
         //  Methods
         //  Largest values lower than 5
+        System.out.println("method values:");
         System.out.println(integerSet.lower(5));
 
         //  Smallest values higher than 5
