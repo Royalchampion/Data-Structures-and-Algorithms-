@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/N. Binary Search Tree/src/VerticalSumInBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/N. Binary Search Tree/src/VerticalTraversalBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/N. Binary Search Tree/VerticalSumInBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/N. Binary Search Tree/VerticalSumInBinaryTree.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,14 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VerticalSumInBinaryTree">
-    <configuration name="DeleteOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DeleteOperation" />
-      <module name="N. Binary Search Tree" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.VerticalTraversalBST">
     <configuration name="FloorInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FloorInBST" />
       <module name="N. Binary Search Tree" />
@@ -75,6 +69,13 @@
     </configuration>
     <configuration name="VerticalSumInBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="VerticalSumInBinaryTree" />
+      <module name="N. Binary Search Tree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerticalTraversalBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VerticalTraversalBST" />
       <module name="N. Binary Search Tree" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VerticalTraversalBST" />
         <item itemvalue="Application.VerticalSumInBinaryTree" />
         <item itemvalue="Application.TreeMapExample" />
         <item itemvalue="Application.TreeSetExample" />
         <item itemvalue="Application.FloorInBST" />
-        <item itemvalue="Application.DeleteOperation" />
       </list>
     </recent_temporary>
   </component>
