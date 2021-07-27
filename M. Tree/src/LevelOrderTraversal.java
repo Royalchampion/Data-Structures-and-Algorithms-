@@ -25,7 +25,7 @@ public class LevelOrderTraversal {
     }
 
     //  Time Complexity : O(n)
-    //  Auxiliary Space : O(h)
+    //  Auxiliary Space : O(w)
     public static void levelOrderTraversal(Node7 root) {
         if (root==null) {
             return;
