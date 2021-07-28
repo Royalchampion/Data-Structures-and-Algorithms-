@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 class Node2 {
     int key;
     Node2 left;
@@ -15,16 +17,34 @@ public class InorderTraversal {
         root.left = null;
         root.right = new Node2(2);
         root.right.left = new Node2(3);
-        inOrder(root);
+        inOrderRecursive(root);
+        System.out.println();
+        inOrderIterative(root);
     }
 
     //  Time Complexity : O(n)
     //  Auxiliary Space : O(h)
-    public static void inOrder(Node2 root) {
+    public static void inOrderRecursive(Node2 root) {
         if (root!=null) {
-            inOrder(root.left);
+            inOrderRecursive(root.left);
             System.out.print(root.key + " ");
-            inOrder(root.right);
+            inOrderRecursive(root.right);
+        }
+    }
+
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(h)
+    public static void inOrderIterative(Node2 root) {
+        Stack<Node2> stack = new Stack<Node2>();
+        Node2 curr = root;
+        while (curr!=null || !stack.isEmpty()) {
+            while (curr!=null) {
+                stack.add(curr);
+                curr = curr.left;
+            }
+            curr = stack.pop();
+            System.out.print(curr.key + " ");
+            curr = curr.right;
         }
     }
 }

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0645535a-6406-47b9-8853-d346ac8118f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/N. Binary Search Tree/src/BottomViewOfBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M. Tree/src/InorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/M. Tree/src/InorderTraversal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BottomViewOfBinaryTree">
+  <component name="RunManager" selected="Application.InorderTraversal">
     <configuration name="BottomViewOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BottomViewOfBinaryTree" />
       <module name="N. Binary Search Tree" />
@@ -52,15 +52,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopViewOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TopViewOfBinaryTree" />
-      <module name="N. Binary Search Tree" />
+    <configuration name="InorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InorderTraversal" />
+      <module name="M. Tree" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreeMapExample" />
+    <configuration name="TopViewOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TopViewOfBinaryTree" />
       <module name="N. Binary Search Tree" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InorderTraversal" />
         <item itemvalue="Application.BottomViewOfBinaryTree" />
         <item itemvalue="Application.TopViewOfBinaryTree" />
         <item itemvalue="Application.VerticalTraversalBST" />
         <item itemvalue="Application.VerticalSumInBinaryTree" />
-        <item itemvalue="Application.TreeMapExample" />
       </list>
     </recent_temporary>
   </component>
