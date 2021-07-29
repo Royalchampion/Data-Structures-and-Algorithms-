@@ -17,7 +17,7 @@ public class SubtreeOfAnotherTree {
         return (isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot));
     }
 
-    //  Time Complexity : O(n)
+    //  Time Complexity : O(mn)
     //  Auxiliary Space : O(h)
     public boolean isSame(Node23 root, Node23 subRoot) {
         if(root==null && subRoot==null) return true;
