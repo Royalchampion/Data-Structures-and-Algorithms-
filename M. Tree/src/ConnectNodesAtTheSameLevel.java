@@ -14,9 +14,11 @@ class Node24 {
 }
 
 public class ConnectNodesAtTheSameLevel {
+    //  This solution works fine for both, complete and incomplete binary trees.
+    //  Iterative
     //  Time Complexity : O(n)
     //  Auxiliary Space : O(w)
-    public Node24 connect(Node24 root) {
+    public Node24 connectIterative(Node24 root) {
         if(root==null) return null;
         Queue<Node24> queue = new LinkedList<>();
         queue.add(root);
@@ -38,6 +40,25 @@ public class ConnectNodesAtTheSameLevel {
             }
             curr.next = null;
         }
+        return root;
+    }
+
+    //  Recursive
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(h)
+    public Node24 connect(Node24 root) {
+        if(root==null) return null;
+
+        if(root.left!=null) {
+            root.left.next = root.right;
+        }
+
+        if(root.right!=null && root.next!=null) {
+            root.right.next = root.next.left;
+        }
+
+        connect(root.left);
+        connect(root.right);
         return root;
     }
 }
