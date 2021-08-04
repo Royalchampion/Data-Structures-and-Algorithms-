@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 class Node4 {
     int key;
     Node4 left;
@@ -26,6 +28,31 @@ public class PostOrderTraversal {
             postOrder(root.left);
             postOrder(root.right);
             System.out.print(root.key + " ");
+        }
+    }
+
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(h)
+    public static void postOrderIterative(Node4 root) {
+        Stack<Node4> stack = new Stack<>();
+        while (true) {
+            while (root!=null) {
+                stack.add(root);
+                stack.add(root);
+                root = root.left;
+            }
+
+            if (stack.isEmpty()) return;
+
+            root = stack.pop();
+
+            if (!stack.isEmpty() && root==stack.peek()) {
+                root = root.right;
+            }
+            else {
+                System.out.print(root + " ");
+                root=null;
+            }
         }
     }
 }
