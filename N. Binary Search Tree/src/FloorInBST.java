@@ -29,7 +29,7 @@ public class FloorInBST {
             if (root.key==x) {
                 return root.key;
             }
-            else if (root.key<x) {
+            else if (root.key<=x) {
                 res = root;
                 root = root.right;
             }
