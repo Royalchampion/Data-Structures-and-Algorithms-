@@ -37,12 +37,12 @@ public class MinimumTimeToBurnABinaryTreeFromLeafNode {
 
         if (leftDistance.val!=-1) {
             data.val = leftDistance.val + 1;
-            res = Math.max(res, data.val+leftHeight);
+            res = Math.max(res, data.val+rightHeight);
         }
 
         else if (rightDistance.val!=-1) {
             data.val = rightDistance.val + 1;
-            res = Math.max(res, data.val+rightHeight);
+            res = Math.max(res, data.val+leftHeight);
         }
 
         return Math.max(leftHeight, rightHeight) + 1;
