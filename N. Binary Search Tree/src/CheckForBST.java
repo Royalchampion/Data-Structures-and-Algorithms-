@@ -13,6 +13,9 @@ class Node6 {
 
 public class CheckForBST {
     Node6 prev = null;
+    //  In-Order Traversal
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(h)
     public boolean isValidBST(Node6 root) {
         if(root==null) {
             return true;
@@ -22,5 +25,13 @@ public class CheckForBST {
             return isValidBST(root.right);
         }
         return false;
+    }
+
+    //  Pre-Order Traversal
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(h)
+    public boolean isValidBSTRange(Node6 root, int min, int max) {
+        if (root==null) return true;
+        return (root.val>min && root.val<max && isValidBSTRange(root.left, min, root.val) && isValidBSTRange(root.right, root.val, max));
     }
 }
