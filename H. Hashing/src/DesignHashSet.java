@@ -27,8 +27,7 @@ public class DesignHashSet {
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    //  Time Complexity : O(1)
-    //  Auxiliary Space : O(l)
+    //  Time complexity and space complexity of hashset very much is dependent on two important factors, rehashing and load factor.
     /*
 
     //  Max input value
